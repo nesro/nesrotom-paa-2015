@@ -26,7 +26,7 @@ gnuplot_wrapper() {
 		set key top left reverse Left
 		set key autotitle columnhead
 		set key title "Legend"
-		set key box width 1 height 1
+		set key right box width 1 height 1
 
 		set ylabel "$ylabel"
 		set xlabel "$xlabel"
@@ -36,9 +36,9 @@ __EOF__
 }
 
 #set -xv
-gpfile=./time.plot
-for m in h; do # add b to test the error for the bruteforce
-	echo "relative_error instance_size" >$gpfile
+for m in h1 h2 h3 h4; do # add b to test the error for the bruteforce
+	gpfile=./err_$m.plot
+	echo "maximal_error relative_error instance_size" >$gpfile
 	for i in tests/*.inst.dat; do
 		max_err=0
 		sum_cost_heur=0
@@ -61,16 +61,20 @@ for m in h; do # add b to test the error for the bruteforce
 			sum_cost_heur=$(c "$sum_cost_heur+$cost_heur")
 			sum_err_abs=$(c "$sum_err_abs+$err_abs")
 			sum_err_rel=$(c "$sum_err_rel+$err_rel")
+
+			if (( $(bc <<< "$err_rel > $max_err ") )); then
+				max_err=$err_rel
+			fi
 		done
 
 		sum_err_rel=$(c "$sum_err_rel/$(wc -l < $(echo $i | sed 's/inst/sol/'))")
 		glob_err=$(c "($sum_cost_brut-$sum_cost_heur)/$sum_cost_brut")
 
 		echo "method=$m, file=$i sum_err_rel=$sum_err_rel gl=$glob_err"
-		echo -e "$sum_err_rel $(echo $i | sed 's/[^0-9]*//g')" >>$gpfile
+		echo -e "$max_err $sum_err_rel $(echo $i | sed 's/[^0-9]*//g')" >>$gpfile
 	done
 
 	cat $gpfile
-	gnuplot_wrapper $gpfile ./err_$m.png instance_size error 2
+	gnuplot_wrapper $gpfile ./err_$m.pdf instance_size "relative error" 3
 done
 

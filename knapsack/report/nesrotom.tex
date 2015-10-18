@@ -34,7 +34,7 @@ Ulozim si nejlepsi reseni.
 
 Pokud ve stromu reseni narazim na to, ze se do batohu uz vic nevejde, vetev zariznu.
 \subsection{Heuristika}
-Seradim si pole s predmety podle pomeru cena/vaha. Cele pole sestupne prochazim a pokud se tam predmet vejde, tak ho tam vlozim.
+Seradim si pole s predmety podle pomeru cena/vaha (nebo jine varianty, viz grafy). Cele pole sestupne prochazim a pokud se tam predmet vejde, tak ho tam vlozim.
 
 \section{Namerene vysledky}
 
@@ -47,22 +47,42 @@ Intel(R) Core(TM) i3-2328M Processor (3M Cache, 2.20 GHz), gcc 4.9.2 (-Ofast), O
 \subsection{Grafy}
 Grafy byly vygenerovany skripty (tests/run.sh a time.sh). Cas byl meren pomoci knihovny OpenMPI.
 
+Presna cisla lze nalezt v .plot souborech.
+
+Chyba heuristiky: Z kazdeho batohu spocitana relativni chyba. V grafu jsou pak secteny relativni chyby pro celou sadu. Celkem 4 heuristiky.
+
 \begin{figure}[H]
-	\caption{Doba behu reseni heuristikou. 50k opakovani.}
+	\caption{Doba behu reseni heuristikou (cena/vaha). 50k opakovani. (cas je v sekundach)}
 	\includegraphics{./time_h.png}
 \end{figure}
 
 \begin{figure}[H]
-	\caption{Doba behu reseni hrubou silou. Pouze jedno opakovani, presto instance o 32 dvou prvcich trvala 22 minut. }
+	\caption{Doba behu reseni hrubou silou. Pouze jedno opakovani, presto instance o 32 dvou prvcich trvala 22 minut. (cas je v sekundach) }
 	\includegraphics{./time_b.png}
 \end{figure}
 
 \begin{figure}[H]
-	\caption{Chyba heuristiky. Z kazdeho batohu spocitana relativni chyba. V grafu jsou pak secteny relativni chyby pro celou sadu.}
-	\includegraphics{./err_h.png}
+	\caption{heuristika (podle ceho se radilo): pomer cena/vaha}
+	\includegraphics{./err_h1.pdf}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{heuristika (podle ceho se radilo): pomer vaha/cena}
+	\includegraphics{./err_h2.pdf}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{heuristika (podle ceho se radilo): cena}
+	\includegraphics{./err_h3.pdf}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{heuristika (podle ceho se radilo): vaha}
+	\includegraphics{./err_h4.pdf}
 \end{figure}
 
 \section{Zaver}
 Vysledky se shoduji s rozborem reseni. Hruba sila je opravdu pomala a byt jednoducha heuristika nevraci zas tak spatne reseni.
 
+Heuristika cena/vaha byla nejlepsi z heuristik.
 \end{document}
