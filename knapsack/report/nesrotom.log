@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.2)  19 OCT 2015 23:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.2)  19 OCT 2015 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,7 +422,7 @@ Here is how much of TeX's memory you used:
 onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb>
-Output written on nesrotom.pdf (6 pages, 91655 bytes).
+Output written on nesrotom.pdf (6 pages, 91936 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
