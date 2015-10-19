@@ -5,4 +5,4 @@ fast:
 	gcc -Wall -Wextra -Werror -pedantic -Ofast -std=c99 main.c -o main -fopenmp
 
 clean:
-	rm main
+	rm main *.plot *.pdf

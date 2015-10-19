@@ -12,7 +12,7 @@
 \maketitle
 
 \section{Specifikace ulohy}
-Problem batohu.
+Problem 0-1 batohu.
 
 \section{Rozbor moznych variant reseni}
 Ulohu muzu resit hrubou silou. Ziskam tam presny vysledek, ale vypocet bude
@@ -32,7 +32,7 @@ Vytvorim pole, ktere udava ktery predmet je v batohu. Rekurzivne zkousim
 vsechny moznosti (zavolam rekurzi bez prvku, pak prvek pridam a zavolam rekurzi znovu).
 Ulozim si nejlepsi reseni.
 
-Pokud ve stromu reseni narazim na to, ze se do batohu uz vic nevejde, vetev zariznu.
+Druha varianta obsahuje vylepseni: Pokud ve stromu reseni narazim na to, ze se do batohu uz vic nevejde, vetev zariznu.
 \subsection{Heuristika}
 Seradim si pole s predmety podle pomeru cena/vaha (nebo jine varianty, viz grafy). Cele pole sestupne prochazim a pokud se tam predmet vejde, tak ho tam vlozim.
 
@@ -45,20 +45,26 @@ Pomoci skriptu byla overena spravnost vysledku (porovnanim s referencnim resenim
 Intel(R) Core(TM) i3-2328M Processor (3M Cache, 2.20 GHz), gcc 4.9.2 (-Ofast), OS GNU/Linux Lubuntu 14.04 64bit
 
 \subsection{Grafy}
-Grafy byly vygenerovany skripty (tests/run.sh a time.sh). Cas byl meren pomoci knihovny OpenMPI.
+Vsechny grafy byly vygenerovany skriptem (error.sh). Cas byl meren pomoci knihovny OpenMPI.
+Sript byl spusten pres prikaz \textbf{sudo time nice -n -20 ./error.sh} a trval 180 sekund.
 
-Presna cisla lze nalezt v .plot souborech.
+Presna cisla lze nalezt v \textbf{*.plot} souborech.
 
-Chyba heuristiky: Z kazdeho batohu spocitana relativni chyba. V grafu jsou pak secteny relativni chyby pro celou sadu. Celkem 4 heuristiky.
+Chyba heuristiky: Z kazdeho batohu spocitana relativni chyba. V grafu jsou pak secteny relativni chyby pro celou sadu. Celkem 3 heuristiky.
 
 \begin{figure}[H]
-	\caption{Doba behu reseni heuristikou (cena/vaha). 50k opakovani. (cas je v sekundach)}
-	\includegraphics{./time_h.png}
+	\caption{Doba behu reseni heuristikou (cena/vaha). 5000 opakovani. }
+	\includegraphics{./time_h1.pdf}
 \end{figure}
 
 \begin{figure}[H]
-	\caption{Doba behu reseni hrubou silou. Pouze jedno opakovani, presto instance o 32 dvou prvcich trvala 22 minut. (cas je v sekundach) }
-	\includegraphics{./time_b.png}
+	\caption{Doba behu reseni hrubou silou. 5 opakovani. }
+	\includegraphics{./time_b0.pdf}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{Doba behu reseni hrubou silou (s orezavanim). 5 opakovani. }
+	\includegraphics{./time_b1.pdf}
 \end{figure}
 
 \begin{figure}[H]
@@ -67,22 +73,22 @@ Chyba heuristiky: Z kazdeho batohu spocitana relativni chyba. V grafu jsou pak s
 \end{figure}
 
 \begin{figure}[H]
-	\caption{heuristika (podle ceho se radilo): pomer vaha/cena}
+	\caption{heuristika (podle ceho se radilo): cena}
 	\includegraphics{./err_h2.pdf}
 \end{figure}
 
 \begin{figure}[H]
-	\caption{heuristika (podle ceho se radilo): cena}
+	\caption{heuristika (podle ceho se radilo): vaha}
 	\includegraphics{./err_h3.pdf}
 \end{figure}
 
-\begin{figure}[H]
-	\caption{heuristika (podle ceho se radilo): vaha}
-	\includegraphics{./err_h4.pdf}
-\end{figure}
 
 \section{Zaver}
 Vysledky se shoduji s rozborem reseni. Hruba sila je opravdu pomala a byt jednoducha heuristika nevraci zas tak spatne reseni.
 
 Heuristika cena/vaha byla nejlepsi z heuristik.
+
+Orezavani bruteforce melo za nasledek zrychleni o 12 sekund u instance o velikosti 25.
+
+Bruteforce ma slozitost \textbf{O(n!)}, zatimco heuristika jen \textbf{O(nlogn)}. Z tohoto duvodu bylo mereni na heuristice opakovano 50000x, zatimco na bruteforce pouze 5x.
 \end{document}

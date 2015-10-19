@@ -26,7 +26,7 @@ gnuplot_wrapper() {
 		set key top left reverse Left
 		set key autotitle columnhead
 		set key title "Legend"
-		set key right box width 1 height 1
+		set key box width 1 height 1
 
 		set ylabel "$ylabel"
 		set xlabel "$xlabel"
@@ -36,9 +36,9 @@ __EOF__
 }
 
 #set -xv
-for m in h1 h2 h3 h4; do # add b to test the error for the bruteforce
-	gpfile=./err_$m.plot
-	echo "maximal_error relative_error instance_size" >$gpfile
+gpfile=./time.plot
+for m in h1 h2 h3; do # add b to test the error for the bruteforce
+	echo "relative_error instance_size" >$gpfile
 	for i in tests/*.inst.dat; do
 		max_err=0
 		sum_cost_heur=0
@@ -50,31 +50,31 @@ for m in h1 h2 h3 h4; do # add b to test the error for the bruteforce
 		    <(./main -$m <$i | awk '{ print $3 }') \
 		    <(awk '{ print $3 }' $(echo $i | sed 's/inst/sol/')) \
 		    | awk '
-		    { print $1 "_" $2 "_" ($2-$1) "_" ($2-$1)/$1  }'); do
-		
+		    { print $1 "_" $2 "_" ($2-$1) "_" ($2-$1)/$2  }'); do
+	#set -xv	
 			cost_heur=$(echo $j | cut -d_ -f1)
 			cost_brut=$(echo $j | cut -d_ -f2)
 			err_abs=$(echo $j | cut -d_ -f3)
 			err_rel=$(echo $j | cut -d_ -f4)
 
+			hovno=$(c "($cost_heur-$cost_brut)/$cost_heur")
+			echo "TADY TY ZMRDE: i=$i AWK=$err_rel BC=$hovno"
+	#set +xv
+
 			sum_cost_brut=$(c "$sum_cost_brut+$cost_brut")
 			sum_cost_heur=$(c "$sum_cost_heur+$cost_heur")
 			sum_err_abs=$(c "$sum_err_abs+$err_abs")
 			sum_err_rel=$(c "$sum_err_rel+$err_rel")
-
-			if (( $(bc <<< "$err_rel > $max_err ") )); then
-				max_err=$err_rel
-			fi
 		done
 
 		sum_err_rel=$(c "$sum_err_rel/$(wc -l < $(echo $i | sed 's/inst/sol/'))")
 		glob_err=$(c "($sum_cost_brut-$sum_cost_heur)/$sum_cost_brut")
 
 		echo "method=$m, file=$i sum_err_rel=$sum_err_rel gl=$glob_err"
-		echo -e "$max_err $sum_err_rel $(echo $i | sed 's/[^0-9]*//g')" >>$gpfile
+		echo -e "$sum_err_rel $(echo $i | sed 's/[^0-9]*//g')" >>$gpfile
 	done
 
 	cat $gpfile
-	gnuplot_wrapper $gpfile ./err_$m.pdf instance_size "relative error" 3
+	gnuplot_wrapper $gpfile ./err_$m.png instance_size error 2
 done
 

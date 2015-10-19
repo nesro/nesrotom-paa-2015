@@ -17,9 +17,15 @@
 
 /******************************************************************************/
 
-#define MAX_ITEMS 40
+#define MAX_ITEMS 50
 
 /******************************************************************************/
+
+typedef struct knapsack_result {
+	double time;
+	double error_relative;
+	double error_maximal;
+} knapsnack_result_t;
 
 typedef struct knapsack_item {
 	int id;
@@ -31,6 +37,7 @@ typedef struct knapsack_solution {
 	int items[MAX_ITEMS];
 	double weight;
 	double cost;
+	double cost_best; /* FIXME: */
 } knapsack_solution_t;
 
 typedef struct knapsack {
@@ -46,13 +53,23 @@ typedef enum knapsack_method {
 } knapsack_method_t;
 
 typedef enum knapsnack_heuristic {
-	UNKNOWN_HEURISTIC = 0, RATIO_CW = 1, RATIO_WC = 2, COST = 3, WEIGHT = 4
+	UNKNOWN_HEURISTIC = 0, RATIO_CW = 1, COST = 2, WEIGHT = 3
 } knapsnack_heuristic_t;
 
 /******************************************************************************/
 
-int knapsack_load(knapsack_t *k) {
+int knapsack_load(knapsack_t *k, int pass_best) {
 	int i;
+
+	k->solution.cost = 0;
+	k->solution.cost_best = 0;
+	k->solution.weight = 0;
+
+	if (pass_best) {
+		if (scanf("%lf", &(k->solution.cost_best)) == EOF) {
+			return (0);
+		}
+	}
 
 	if (scanf("%d", &k->id) == EOF) {
 		return (0);
@@ -81,66 +98,75 @@ int knapsack_load(knapsack_t *k) {
 }
 
 void knapsack_solve_bruteforce_inner(knapsack_t *k, int n,
-		knapsack_solution_t *s/*olution*/) {
-
-	if (n == 0 && s->weight <= k->cap && s->cost >= k->solution.cost) {
-		memcpy(&k->solution, s, sizeof(knapsack_solution_t));
-		return;
-	}
+		knapsack_solution_t *s/*olution*/, int cut) {
 
 	if (n == 0) {
+		if (s->weight <= k->cap && s->cost >= k->solution.cost) {
+			memcpy(&k->solution, s, sizeof(knapsack_solution_t));
+		}
 		return;
 	}
 
 	n--;
 
-	knapsack_solve_bruteforce_inner(k, n, s);
+	knapsack_solve_bruteforce_inner(k, n, s, cut);
 
-	if (s->weight + k->items[n].weight > k->cap) {
+	if (cut && s->weight + k->items[n].weight > k->cap) {
 		return;
 	}
 
 	s->items[n] = 1;
 	s->weight += k->items[n].weight;
 	s->cost += k->items[n].cost;
-	knapsack_solve_bruteforce_inner(k, n, s);
+	knapsack_solve_bruteforce_inner(k, n, s, cut);
 	s->items[n] = 0;
 	s->weight -= k->items[n].weight;
 	s->cost -= k->items[n].cost;
 }
 
-void knapsack_solve_bruteforce(knapsack_t *k) {
-	knapsack_solution_t s = { { 0 }, 0, 0 };
+void knapsack_solve_bruteforce(knapsack_t *k, int cut) {
+	knapsack_solution_t s = { { 0 }, 0, 0, 0 };
 	memcpy(&k->solution, &s, sizeof(knapsack_solution_t));
-	knapsack_solve_bruteforce_inner(k, k->n, &s);
+	knapsack_solve_bruteforce_inner(k, k->n, &s, cut);
 }
 
 int knapsack_item_compare_ratio_cw(const void *a, const void *b) {
 	knapsack_item_t *ia = (knapsack_item_t *) a;
 	knapsack_item_t *ib = (knapsack_item_t *) b;
-
-	return ((ia->cost / ia->weight) - (ib->cost / ib->weight));
-}
-
-int knapsack_item_compare_ratio_wc(const void *a, const void *b) {
-	knapsack_item_t *ia = (knapsack_item_t *) a;
-	knapsack_item_t *ib = (knapsack_item_t *) b;
-
-	return ((ia->weight / ia->cost) - (ib->weight / ib->cost));
+	double res = ((ia->cost / ia->weight) - (ib->cost / ib->weight));
+	if (res < 0) {
+		return (-1);
+	} else if (res > 0) {
+		return (1);
+	} else {
+		return (0);
+	}
 }
 
 int knapsack_item_compare_cost(const void *a, const void *b) {
 	knapsack_item_t *ia = (knapsack_item_t *) a;
 	knapsack_item_t *ib = (knapsack_item_t *) b;
-
-	return (ia->cost - ib->cost);
+	double res = (ia->cost - ib->cost);
+	if (res < 0) {
+		return (-1);
+	} else if (res > 0) {
+		return (1);
+	} else {
+		return (0);
+	}
 }
 
 int knapsack_item_compare_weight(const void *a, const void *b) {
 	knapsack_item_t *ia = (knapsack_item_t *) a;
 	knapsack_item_t *ib = (knapsack_item_t *) b;
-
-	return (ia->weight - ib->weight);
+	double res = (ia->weight - ib->weight);
+	if (res < 0) {
+		return (-1);
+	} else if (res > 0) {
+		return (1);
+	} else {
+		return (0);
+	}
 }
 
 void knapsack_solve_heuristic(knapsack_t *k, knapsnack_heuristic_t h) {
@@ -151,9 +177,6 @@ void knapsack_solve_heuristic(knapsack_t *k, knapsnack_heuristic_t h) {
 	case RATIO_CW:
 		qsort_method = knapsack_item_compare_ratio_cw;
 		break;
-	case RATIO_WC:
-		qsort_method = knapsack_item_compare_ratio_wc;
-		break;
 	case COST:
 		qsort_method = knapsack_item_compare_cost;
 		break;
@@ -162,19 +185,22 @@ void knapsack_solve_heuristic(knapsack_t *k, knapsnack_heuristic_t h) {
 		break;
 	case UNKNOWN_METHOD:
 	default:
-		fprintf(stderr, "Unknown heurstic method: %d.\n", h);
+		fprintf(stderr, "Unknown heuristic method: %d.\n", h);
 		assert(0);
 		break;
 	}
 
 	qsort(k->items, k->n, sizeof(knapsack_item_t), qsort_method);
-	memset(&k->solution, 0, sizeof(knapsack_solution_t));
+	k->solution.weight = 0;
+	k->solution.cost = 0;
 
 	for (i = k->n - 1; i >= 0; i--) {
-		if (k->solution.weight + k->items[i].weight < k->cap) {
+		if (k->solution.weight + k->items[i].weight <= k->cap) {
 			k->solution.weight += k->items[i].weight;
 			k->solution.cost += k->items[i].cost;
 			k->solution.items[k->items[i].id] = 1;
+		} else {
+			k->solution.items[k->items[i].id] = 0;
 		}
 	}
 }
@@ -201,11 +227,17 @@ int main(int argc, char *argv[]) {
 	double time_start = 0;
 	double time_end = 0;
 	int time_show = 0;
+	knapsnack_result_t result = { 0, 0, 0 };
+	int pass_best = 0;
+	int bruteforce_cut = 0;
+	double relative;
+	double lines = 0;
 
-	while ((c = getopt(argc, argv, "bh:r:t")) != -1) {
+	while ((c = getopt(argc, argv, "b:h:r:tp")) != -1) {
 		switch (c) {
 		case 'b':
 			method = BRUTEFORCE;
+			bruteforce_cut = atoi(optarg);
 			break;
 		case 'h':
 			method = HEURISTIC;
@@ -216,6 +248,9 @@ int main(int argc, char *argv[]) {
 			break;
 		case 't':
 			time_show = 1;
+			break;
+		case 'p':
+			pass_best = 1;
 			break;
 		case '?':
 			fprintf(stderr, "unknown opt omg\n");
@@ -231,11 +266,16 @@ int main(int argc, char *argv[]) {
 		time_start = omp_get_wtime();
 	}
 
-	while (knapsack_load(&k)) {
+	result.time = omp_get_wtime();
+	result.error_relative = 0.0;
+	result.error_maximal = 0.0;
+
+	while (knapsack_load(&k, pass_best)) {
+		lines++;
 		for (i = 0; i < repeat; i++) {
 			switch (method) {
 			case BRUTEFORCE:
-				knapsack_solve_bruteforce(&k);
+				knapsack_solve_bruteforce(&k, bruteforce_cut);
 				break;
 			case HEURISTIC:
 				knapsack_solve_heuristic(&k, heuristic);
@@ -249,10 +289,26 @@ int main(int argc, char *argv[]) {
 				break;
 			}
 		}
+
+		relative = (k.solution.cost_best - k.solution.cost)
+				/ k.solution.cost_best;
+
+		if (relative > result.error_maximal) {
+			result.error_maximal = relative;
+		}
+
+		result.error_relative += relative;
+
 		if (!time_show) {
 			knapsack_print(&k);
 		}
 	}
+
+	result.time = omp_get_wtime() - result.time;
+
+	result.error_relative = result.error_relative / lines;
+	printf("%lf_%lf_%lf\n", result.error_relative, result.error_maximal,
+			result.time);
 
 	if (time_show) {
 		time_end = omp_get_wtime();

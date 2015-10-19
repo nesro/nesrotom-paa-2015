@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1445207162 "nesrotom.tex" "nesrotom.pdf" "nesrotom" 1445207163
+["pdflatex"] 1445288439 "nesrotom.tex" "nesrotom.pdf" "nesrotom" 1445288439
   "/etc/texmf/web2c/texmf.cnf" 1414228341 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -41,15 +41,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1434520011 1205101 6ddf918978986fbae814dc5d76435db2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1414935117 925198 e16a9d02c332103c3e64d40d8ad97c63 ""
-  "err_h1.pdf" 1445206119 9818 a856c1e09810a968cde1c7a0dc2ee00b ""
-  "err_h2.pdf" 1445206135 9204 b620fdf185d39de1330f26edaf6c360a ""
-  "err_h3.pdf" 1445206150 9144 9e2334c73fde9e42c36083e32e2051c9 ""
-  "err_h4.pdf" 1445206166 9445 018f76c2445dd3da3395316a994e6194 ""
-  "nesrotom.aux" 1445207163 1891 b38f1a86e938f3f2275a934ef3567e32 ""
-  "nesrotom.tex" 1445207160 2875 6c7cbe22e2846689099307704c2de230 ""
-  "time_b.png" 1444683760 8250 63646e61169e6b01ce9d63e77e2c4701 ""
-  "time_h.png" 1444679459 8126 8033bbcee68f054f4c9bba02e45aacd3 ""
+  "err_h1.pdf" 1445287333 9357 2222ed76ac86e0d287d67b7a42b06950 ""
+  "err_h2.pdf" 1445287336 9347 09676cfae3adfe5e746792a207f7e404 ""
+  "err_h3.pdf" 1445287340 9067 2a98d80b258818a95729c6c713389226 ""
+  "nesrotom.aux" 1445288439 1799 9f3f99423e001b2ad8fedb3f02043f76 ""
+  "nesrotom.tex" 1445288437 3186 5dda9617425895a15954d15bc55950d9 ""
+  "time_b0.pdf" 1445287251 7799 3827c12aaf4ca8f5f81cd01da030eb9c ""
+  "time_b1.pdf" 1445287329 7798 6dcad5684ce4807e259e4993848e379a ""
+  "time_h1.pdf" 1445287333 8263 f68286703f7455b5ff5f00b1b2cfe067 ""
   (generated)
-  "nesrotom.pdf"
-  "nesrotom.aux"
   "nesrotom.log"
+  "nesrotom.aux"
+  "nesrotom.pdf"
