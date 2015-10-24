@@ -47,7 +47,7 @@ for m in b0 b1 h1 h2 h3; do
 	echo "time instance_size" >$gpfile_time
 	for i in tests/*.inst.dat; do
 		problem_size=$(echo $i | sed 's/[^0-9]*//g')
-		if [[ $m =~ b[01] ]] && (( $problem_size > 25 )); then
+		if [[ $m =~ b[01] ]] && (( $problem_size >= 25 )); then
 			continue
 		fi
 		echo "> > problem_size=$problem_size"
@@ -63,9 +63,9 @@ for m in b0 b1 h1 h2 h3; do
 		err_max=$(echo $r | cut -d_ -f2)
 
 		# tady jsem si zjistil, ze to mam dobre
-		#if [[ $m =~ b[01] ]]; then
-		#	echo "err_max=$err_max"
-		#fi
+		if [[ $m =~ b[01] ]]; then
+			echo "err_max=$err_max"
+		fi
 
 		prg_time=$(echo $r | cut -d_ -f3)
 		echo "$err_max $err_rel $problem_size" >>$gpfile_err

@@ -37,7 +37,7 @@ typedef struct knapsack_solution {
 	int items[MAX_ITEMS];
 	double weight;
 	double cost;
-	double cost_best; /* FIXME: */
+	double cost_best; /* obsolete */
 } knapsack_solution_t;
 
 typedef struct knapsack {
@@ -46,6 +46,7 @@ typedef struct knapsack {
 	int cap; /* capacity (how much weight we can hold) */
 	knapsack_item_t items[MAX_ITEMS]; /* available items */
 	knapsack_solution_t solution;
+	double cost_best;
 } knapsack_t;
 
 typedef enum knapsack_method {
@@ -66,9 +67,10 @@ int knapsack_load(knapsack_t *k, int pass_best) {
 	k->solution.weight = 0;
 
 	if (pass_best) {
-		if (scanf("%lf", &(k->solution.cost_best)) == EOF) {
+		if (scanf("%lf", &(k->cost_best)) == EOF) {
 			return (0);
 		}
+		k->solution.cost_best = k->cost_best; /* obsolete */
 	}
 
 	if (scanf("%d", &k->id) == EOF) {
@@ -97,39 +99,6 @@ int knapsack_load(knapsack_t *k, int pass_best) {
 	return (1);
 }
 
-void knapsack_solve_bruteforce_inner(knapsack_t *k, int n,
-		knapsack_solution_t *s/*olution*/, int cut) {
-
-	if (n == 0) {
-		if (s->weight <= k->cap && s->cost >= k->solution.cost) {
-			memcpy(&k->solution, s, sizeof(knapsack_solution_t));
-		}
-		return;
-	}
-
-	n--;
-
-	knapsack_solve_bruteforce_inner(k, n, s, cut);
-
-	if (cut && s->weight + k->items[n].weight > k->cap) {
-		return;
-	}
-
-	s->items[n] = 1;
-	s->weight += k->items[n].weight;
-	s->cost += k->items[n].cost;
-	knapsack_solve_bruteforce_inner(k, n, s, cut);
-	s->items[n] = 0;
-	s->weight -= k->items[n].weight;
-	s->cost -= k->items[n].cost;
-}
-
-void knapsack_solve_bruteforce(knapsack_t *k, int cut) {
-	knapsack_solution_t s = { { 0 }, 0, 0, 0 };
-	memcpy(&k->solution, &s, sizeof(knapsack_solution_t));
-	knapsack_solve_bruteforce_inner(k, k->n, &s, cut);
-}
-
 int knapsack_item_compare_ratio_cw(const void *a, const void *b) {
 	knapsack_item_t *ia = (knapsack_item_t *) a;
 	knapsack_item_t *ib = (knapsack_item_t *) b;
@@ -154,6 +123,68 @@ int knapsack_item_compare_cost(const void *a, const void *b) {
 	} else {
 		return (0);
 	}
+}
+
+/* int lc = 0;
+ int uc = 0; */
+
+void knapsack_solve_bruteforce_inner(knapsack_t *k, int n,
+		knapsack_solution_t *s/*olution*/, int cut,
+		knapsack_item_t *r/*emaining*/) {
+
+	if (n == 0) {
+		if (s->weight <= k->cap && s->cost >= k->solution.cost) {
+			memcpy(&k->solution, s, sizeof(knapsack_solution_t));
+		}
+		return;
+	}
+
+	n--;
+
+	/* lower cut - even if we add all remaining items, the cost wouldn't
+	 * be enough to be better than the best one we have found */
+	if (cut && k->solution.cost > r[n].cost) {
+		/* lc++; */
+		return;
+	}
+
+	knapsack_solve_bruteforce_inner(k, n, s, cut, r);
+
+	/* upper cut - if the added item is too heavy for the knapsnack */
+	if (cut && s->weight + k->items[n].weight > k->cap) {
+		/* uc++; */
+		return;
+	}
+
+	s->items[n] = 1;
+	s->weight += k->items[n].weight;
+	s->cost += k->items[n].cost;
+	knapsack_solve_bruteforce_inner(k, n, s, cut, r);
+	s->items[n] = 0;
+	s->weight -= k->items[n].weight;
+	s->cost -= k->items[n].cost;
+}
+
+void knapsack_solve_bruteforce(knapsack_t *k, int optimize) {
+	knapsack_solution_t s = { { 0 }, 0, 0, 0 };
+	knapsack_item_t remaining[50]; /* sum of remaining */
+	int i;
+
+	memcpy(&k->solution, &s, sizeof(knapsack_solution_t));
+
+	if (optimize) {
+		qsort(k->items, k->n, sizeof(knapsack_item_t),
+				knapsack_item_compare_ratio_cw);
+
+		remaining[k->n - 1].cost = k->items[k->n - 1].cost;
+		remaining[k->n - 1].weight = k->items[k->n - 1].weight;
+		for (i = k->n - 2; i >= 0; i--) {
+			remaining[i].cost = remaining[i - 1].cost + k->items[i].cost;
+			remaining[i].weight = remaining[i - 1].weight + k->items[i].weight;
+		}
+	}
+
+	knapsack_solve_bruteforce_inner(k, k->n, &s, optimize, remaining);
 }
 
 int knapsack_item_compare_weight(const void *a, const void *b) {
@@ -312,8 +343,10 @@ int main(int argc, char *argv[]) {
 
 	if (time_show) {
 		time_end = omp_get_wtime();
-		printf("%lf\n", time_end - time_start);
+		printf("%lf\n", (time_end - time_start) / (double) repeat);
 	}
+
+	/* fprintf(stderr, "lower cuts=%d, upper cuts=%d\n", lc, uc); */
 
 	return (EXIT_SUCCESS);
 }
