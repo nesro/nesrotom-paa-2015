@@ -3,7 +3,13 @@
 # nesro@nesro.cz
 # https://github.com/nesro/nesrotom-paa-2015
 
-make fast
+if false; then
+	make
+	valgrind="valgrind --leak-check=full --track-origins=yes -q"
+else
+	make fast
+	valgrind=""
+fi
 
 c() { bc <<< "scale=10;$1" | sed 's/^\./0./'; }
 
@@ -39,7 +45,7 @@ gnuplot_wrapper() {
 __EOF__
 }
 
-for m in b0 b1 h1 h2 h3; do
+for m in d1 d2 b0 b1 h1 h2 h3; do
 	gpfile_err=./err_$m.plot
 	gpfile_time=./time_$m.plot
 	echo "> m=$m"
@@ -50,6 +56,9 @@ for m in b0 b1 h1 h2 h3; do
 		if [[ $m =~ b[01] ]] && (( $problem_size >= 25 )); then
 			continue
 		fi
+		if [[ $m =~ d[01] ]] && (( $problem_size >= 25 )); then
+			continue
+		fi
 		echo "> > problem_size=$problem_size"
 
 		if [[ $m =~ b[01] ]]; then
@@ -58,12 +67,12 @@ for m in b0 b1 h1 h2 h3; do
 			r=5000
 		fi
 
-		r=$(paste -d ' ' <(cat $(echo $i | sed 's/inst/sol/') | cut -d ' ' -f 3) $i | ./main -p -$m -r $r | grep '_')
+		r=$(paste -d ' ' <(cat $(echo $i | sed 's/inst/sol/') | cut -d ' ' -f 3) $i | $valgrind ./main -p -$m -r $r | grep '_')
 		err_rel=$(echo $r | cut -d_ -f1)
 		err_max=$(echo $r | cut -d_ -f2)
 
 		# tady jsem si zjistil, ze to mam dobre
-		if [[ $m =~ b[01] ]]; then
+		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]]; then
 			echo "err_max=$err_max"
 		fi
 
