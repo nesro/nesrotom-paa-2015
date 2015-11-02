@@ -56,15 +56,16 @@ for m in f d1 d2 b0 b1 h1 h2 h3; do
 		if [[ $m =~ b[01] ]] && (( $problem_size >= 25 )); then
 			continue
 		fi
-		if [[ $m =~ d[01] ]] && (( $problem_size >= 25 )); then
+		if [[ $m == d2 ]] && (( $problem_size >= 22 )); then
 			continue
 		fi
+
 		echo "> > problem_size=$problem_size"
 
 		if [[ $m =~ b[01] ]]; then
 			r=5
 		else
-			r=5000
+			r=50
 		fi
 
 		r=$(paste -d ' ' <(cat $(echo $i | sed 's/inst/sol/') | cut -d ' ' -f 3) $i | $valgrind ./main -p -$m -r $r | grep '_')
@@ -81,7 +82,7 @@ for m in f d1 d2 b0 b1 h1 h2 h3; do
 		echo "$prg_time $problem_size" >>$gpfile_time
 	done
 
-	if [[ ! $m =~ b[01] ]]; then
+	if [[ ! $m =~ b[01] ]] && [[ ! $m =~ d[12] ]]; then
 		gnuplot_wrapper $gpfile_err ./err_$m.pdf "instance size" "relative error" 3
 	fi
 

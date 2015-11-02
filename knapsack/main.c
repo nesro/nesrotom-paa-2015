@@ -7,6 +7,8 @@
 /******************************************************************************/
 
 #include <stdio.h>
+#include <math.h>
+#include <limits.h>
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
@@ -329,7 +331,13 @@ void knapsack_fptas(knapsack_t *k) {
 		cost_max = max(cost_max, k->items[i].cost);
 	}
 
-	/* tady vyskaluju cost_sum */
+	double eps = 0.25;
+	int scale = log((eps * cost_max) / k->n) / log(2);
+	scale = max(0, scale);
+
+	for (i = 0; i < k->n; i++) {
+		k->items[i].cost >>= scale;
+	}
 
 	assert(cost_sum < MAX_COST);
 
@@ -340,7 +348,7 @@ void knapsack_fptas(knapsack_t *k) {
 	}
 
 	for (i = 0; i <= cost_sum; i++) {
-		dyntbl[0][i] = 999999;
+		dyntbl[0][i] = INT_MAX / 2;
 	}
 	dyntbl[0][0] = 0;
 
@@ -361,9 +369,14 @@ void knapsack_fptas(knapsack_t *k) {
 	for (i = cost_sum; i > 0; i--) {
 		if (dyntbl[k->n][i] <= k->cap) {
 			k->solution.cost = i;
+			k->solution.cost <<= scale;
 			break;
 		}
 	}
+	for (i = 0; i < k->n; i++) {
+		k->items[i].cost <<= scale;
+	}
+
 	/*
 	 int j;
 	 int res = 0;
@@ -384,6 +397,7 @@ void knapsack_fptas(knapsack_t *k) {
 	 printf("\n");
 	 }
 	 }*/
+
 }
 
 void knapsack_solve_heuristic(knapsack_t *k, knapsack_heuristic_t h) {
