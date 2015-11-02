@@ -45,7 +45,7 @@ gnuplot_wrapper() {
 __EOF__
 }
 
-for m in d1 d2 b0 b1 h1 h2 h3; do
+for m in f d1 d2 b0 b1 h1 h2 h3; do
 	gpfile_err=./err_$m.plot
 	gpfile_time=./time_$m.plot
 	echo "> m=$m"
@@ -72,7 +72,7 @@ for m in d1 d2 b0 b1 h1 h2 h3; do
 		err_max=$(echo $r | cut -d_ -f2)
 
 		# tady jsem si zjistil, ze to mam dobre
-		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]]; then
+		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]] || [[ $m = f ]]; then
 			echo "err_max=$err_max"
 		fi
 

@@ -19,11 +19,20 @@
 
 #define MAX_ITEMS 50
 #define MAX_CAPACITY 1000
+#define MAX_COST 8000
 
 /******************************************************************************/
 
 inline int max(int a, int b) {
 	if (a > b) {
+		return (a);
+	} else {
+		return (b);
+	}
+}
+
+inline int min(int a, int b) {
+	if (a < b) {
 		return (a);
 	} else {
 		return (b);
@@ -61,7 +70,7 @@ typedef struct knapsack {
 } knapsack_t;
 
 typedef enum knapsack_method {
-	UNKNOWN_METHOD, BRUTEFORCE, HEURISTIC, DYNAMIC
+	UNKNOWN_METHOD, BRUTEFORCE, HEURISTIC, DYNAMIC, FPTAS
 } knapsack_method_t;
 
 typedef enum knapsnack_heuristic {
@@ -290,6 +299,93 @@ void knapsack_solve_dynamic_up(knapsack_t *k) {
 
 }
 
+void knapsack_fptas(knapsack_t *k) {
+	/*
+	 * 2. kolik bytu budu ignorovat: vzorecek
+	 * (dvojkovej logarismtus z log2(eps*costMAx/pocetpredmetu)
+	 * VELIKOST TABULKY JE Z VYSCALOVANE SUMY
+	 * 1. suma vsech VYSCALOVANYCH cen + maximalni cena
+	 * 3. kdyz je to <0 tak dej nula
+	 * 4. vsechny ceny udelam >> o ten vysledek (abych zmensil pole)
+	 * 5. do prvniho radku; arr[0][i] = intMax/2 (ze tam nebyla nejlepsi cena)
+	 *    arr[0][0] = 0;
+	 * 6. dynamo, jen misto max dat min (hledam nejmensi vahu)
+	 * 7. ja pak nevim kde je vysledek, vim  jen, ze je v poslendim radku
+	 *    takze prochazim od konce posledni radek a hledam tam hiodnotu
+	 *    kteraje mensi ma vahu co se tam jeste vejde
+	 *
+	 * 8. zjistim, ktery predmety dal (neni potreba)]
+	 * 9. na konci tu cenu zase zasunu <<
+	 */
+
+	int i;
+	int c;
+	int dyntbl[MAX_ITEMS + 1][MAX_COST + 1];
+
+	int cost_sum = 0;
+	int cost_max = 0;
+	for (i = 0; i < k->n; i++) {
+		cost_sum += k->items[i].cost;
+		cost_max = max(cost_max, k->items[i].cost);
+	}
+
+	/* tady vyskaluju cost_sum */
+
+	assert(cost_sum < MAX_COST);
+
+	for (i = 0; i <= k->n; i++) {
+		for (c = 0; c <= cost_sum; c++) {
+			dyntbl[i][c] = 0;
+		}
+	}
+
+	for (i = 0; i <= cost_sum; i++) {
+		dyntbl[0][i] = 999999;
+	}
+	dyntbl[0][0] = 0;
+
+	for (i = 1; i <= k->n; i++) {
+		for (c = 0; c <= cost_sum; c++) {
+			if (k->items[i - 1].cost <= c) {
+				dyntbl[i][c] = min(
+						k->items[i - 1].weight
+								+ dyntbl[i - 1][c - k->items[i - 1].cost],
+						dyntbl[i - 1][c]);
+			} else {
+				/* over limit, just copy the previous line */
+				dyntbl[i][c] = dyntbl[i - 1][c];
+			}
+		}
+	}
+
+	for (i = cost_sum; i > 0; i--) {
+		if (dyntbl[k->n][i] <= k->cap) {
+			k->solution.cost = i;
+			break;
+		}
+	}
+	/*
+	 int j;
+	 int res = 0;
+	 for (j = k->n; j > 0; j--) {
+	 if (dyntbl[j][i] != dyntbl[j - 1][i]) {
+	 i -= k->items[j - 1].cost;
+	 res += k->items[j - 1].cost;
+	 }
+	 }
+	 k->solution.cost = res;
+	 */
+	/*
+	 if (0) {
+	 for (c = 0; c <= cost_sum; c++) {
+	 for (i = 0; i <= k->n; i++) {
+	 printf("[%d][%2d]%d\t", i, c, dyntbl[i][c]);
+	 }
+	 printf("\n");
+	 }
+	 }*/
+}
+
 void knapsack_solve_heuristic(knapsack_t *k, knapsack_heuristic_t h) {
 	int i;
 	int (*qsort_method)(const void *, const void *);
@@ -354,11 +450,11 @@ int main(int argc, char *argv[]) {
 
 	knapsack_dynamic_t dynamic = UNKNOWN_DYNAMIC;
 	double relative;
-	double lines = 0;
+	int lines = 0;
 
 	memset(&k, 0, sizeof(knapsack_t));
 
-	while ((c = getopt(argc, argv, "b:d:h:r:tp")) != -1) {
+	while ((c = getopt(argc, argv, "b:d:fh:r:tp")) != -1) {
 		switch (c) {
 		case 'b':
 			method = BRUTEFORCE;
@@ -367,6 +463,9 @@ int main(int argc, char *argv[]) {
 		case 'd':
 			method = DYNAMIC;
 			dynamic = atoi(optarg);
+			break;
+		case 'f':
+			method = FPTAS;
 			break;
 		case 'h':
 			method = HEURISTIC;
@@ -422,6 +521,9 @@ int main(int argc, char *argv[]) {
 					break;
 				}
 				break;
+			case FPTAS:
+				knapsack_fptas(&k);
+				break;
 			case HEURISTIC:
 				knapsack_solve_heuristic(&k, heuristic);
 				break;
@@ -440,6 +542,10 @@ int main(int argc, char *argv[]) {
 
 		if (relative > result.error_maximal) {
 			result.error_maximal = relative;
+
+			/*if (relative > 0) {
+			 fprintf(stderr, "err on line: %d\n", lines);
+			 }*/
 		}
 
 		result.error_relative += relative;
@@ -451,7 +557,7 @@ int main(int argc, char *argv[]) {
 
 	result.time = omp_get_wtime() - result.time;
 
-	result.error_relative = result.error_relative / lines;
+	result.error_relative = result.error_relative / (double) lines;
 	printf("%lf_%lf_%lf\n", result.error_relative, result.error_maximal,
 			result.time);
 
