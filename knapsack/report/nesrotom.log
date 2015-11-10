@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.2)  19 OCT 2015 23:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.2)  10 NOV 2015 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,23 +409,158 @@ Package pdftex.def Info: ./err_h3.pdf used on input line 82.
 
 pdfTeX warning: pdflatex (file ./err_h3.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
->] [6] (./nesrotom.aux) ) 
+>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 93.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 93.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 93.
+
+Overfull \hbox (9.46114pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/12 Dynamicke pro-gramovani je lepsi (dle nameren-cyh udaju) prov
+adet odspoda
+ []
+
+[6] <./time_f0.pdf, id=77, 361.35pt x 216.81pt>
+File: ./time_f0.pdf Graphic file (type pdf)
+ <use ./time_f0.pdf>
+Package pdftex.def Info: ./time_f0.pdf used on input line 126.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./time_f25.pdf, id=78, 361.35pt x 216.81pt>
+File: ./time_f25.pdf Graphic file (type pdf)
+ <use ./time_f25.pdf>
+Package pdftex.def Info: ./time_f25.pdf used on input line 131.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [7 <./time_f0.pdf>] <./time_f50.pdf, id=91, 361.35pt x 216.81pt>
+File: ./time_f50.pdf Graphic file (type pdf)
+ <use ./time_f50.pdf>
+Package pdftex.def Info: ./time_f50.pdf used on input line 136.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./time_f75.pdf, id=92, 361.35pt x 216.81pt>
+File: ./time_f75.pdf Graphic file (type pdf)
+ <use ./time_f75.pdf>
+Package pdftex.def Info: ./time_f75.pdf used on input line 141.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [8 <./time_f25.pdf> <./time_f50.pdf
+
+pdfTeX warning: pdflatex (file ./time_f50.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>] <./time_f100.pdf, id=111, 361.35pt x 216.81pt>
+File: ./time_f100.pdf Graphic file (type pdf)
+ <use ./time_f100.pdf>
+Package pdftex.def Info: ./time_f100.pdf used on input line 146.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./time_d1.pdf, id=112, 361.35pt x 216.81pt>
+File: ./time_d1.pdf Graphic file (type pdf)
+ <use ./time_d1.pdf>
+Package pdftex.def Info: ./time_d1.pdf used on input line 151.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [9 <./time_f75.pdf> <./time_f100.pdf
+
+pdfTeX warning: pdflatex (file ./time_f100.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] <./time_d2.pdf, id=131, 361.35pt x 216.81pt>
+File: ./time_d2.pdf Graphic file (type pdf)
+ <use ./time_d2.pdf>
+Package pdftex.def Info: ./time_d2.pdf used on input line 156.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+File: ./time_b0.pdf Graphic file (type pdf)
+
+<use ./time_b0.pdf>
+Package pdftex.def Info: ./time_b0.pdf used on input line 161.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [10 <./time_d1.pdf> <./time_d2.pdf
+
+pdfTeX warning: pdflatex (file ./time_d2.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>]
+File: ./time_b1.pdf Graphic file (type pdf)
+ <use ./time_b1.pdf>
+Package pdftex.def Info: ./time_b1.pdf used on input line 166.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+File: ./time_h1.pdf Graphic file (type pdf)
+ <use ./time_h1.pdf>
+Package pdftex.def Info: ./time_h1.pdf used on input line 171.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [11]
+<./time_h2.pdf, id=154, 361.35pt x 216.81pt>
+File: ./time_h2.pdf Graphic file (type pdf)
+ <use ./time_h2.pdf>
+Package pdftex.def Info: ./time_h2.pdf used on input line 176.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./time_h3.pdf, id=155, 361.35pt x 216.81pt>
+File: ./time_h3.pdf Graphic file (type pdf)
+ <use ./time_h3.pdf>
+Package pdftex.def Info: ./time_h3.pdf used on input line 181.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [12 <./time_h2.pdf>] <./err_f25.pdf, id=167, 361.35pt x 216.81pt>
+File: ./err_f25.pdf Graphic file (type pdf)
+ <use ./err_f25.pdf>
+Package pdftex.def Info: ./err_f25.pdf used on input line 186.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./err_f50.pdf, id=168, 361.35pt x 216.81pt>
+File: ./err_f50.pdf Graphic file (type pdf)
+ <use ./err_f50.pdf>
+Package pdftex.def Info: ./err_f50.pdf used on input line 191.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [13 <./time_h3.pdf> <./err_f25.pdf
+
+pdfTeX warning: pdflatex (file ./err_f25.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <./err_f75.pdf, id=188, 361.35pt x 216.81pt>
+File: ./err_f75.pdf Graphic file (type pdf)
+ <use ./err_f75.pdf>
+Package pdftex.def Info: ./err_f75.pdf used on input line 196.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<./err_f100.pdf, id=189, 361.35pt x 216.81pt>
+File: ./err_f100.pdf Graphic file (type pdf)
+ <use ./err_f100.pdf>
+Package pdftex.def Info: ./err_f100.pdf used on input line 201.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [14 <./err_f50.pdf> <./err_f75.pdf
+
+pdfTeX warning: pdflatex (file ./err_f75.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>]
+File: ./err_h1.pdf Graphic file (type pdf)
+ <use ./err_h1.pdf>
+Package pdftex.def Info: ./err_h1.pdf used on input line 206.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+File: ./err_h2.pdf Graphic file (type pdf)
+ <use ./err_h2.pdf>
+Package pdftex.def Info: ./err_h2.pdf used on input line 211.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [15 <./err_f100.pdf>]
+File: ./err_h3.pdf Graphic file (type pdf)
+
+<use ./err_h3.pdf>
+Package pdftex.def Info: ./err_h3.pdf used on input line 216.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [16] (./nesrotom.aux) ) 
 Here is how much of TeX's memory you used:
- 1767 strings out of 494953
- 24156 string characters out of 6179185
- 78405 words of memory out of 5000000
- 4981 multiletter control sequences out of 15000+600000
- 6370 words of font info for 23 fonts, out of 8000000 for 9000
+ 1850 strings out of 494953
+ 25453 string characters out of 6179185
+ 79405 words of memory out of 5000000
+ 5045 multiletter control sequences out of 15000+600000
+ 8808 words of font info for 31 fonts, out of 8000000 for 9000
  46 hyphenation exceptions out of 8191
- 37i,6n,23p,238b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
-.pfb>
-Output written on nesrotom.pdf (6 pages, 91936 bytes).
+ 37i,6n,23p,382b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on nesrotom.pdf (16 pages, 210378 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 240 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

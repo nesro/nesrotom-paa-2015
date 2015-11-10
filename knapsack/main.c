@@ -155,7 +155,6 @@ int knapsack_item_compare_cost(const void *a, const void *b) {
 
 int lc = 0;
 int uc = 0;
-
 void knapsack_solve_bruteforce_inner(knapsack_t *k, int n,
 		knapsack_solution_t *s/*olution*/, int cut,
 		knapsack_item_t *r/*emaining*/) {
@@ -240,15 +239,6 @@ int knapsack_item_compare_weight(const void *a, const void *b) {
 	}
 }
 
-int **malloc2d(int size) {
-	int **r;
-
-	r = malloc(size * sizeof(int *));
-	assert(r);
-
-	return (r);
-}
-
 int knapsack_d2(knapsack_t *k, int i, int w) {
 	if (i < 0 || w < 0) {
 		return (0);
@@ -301,7 +291,7 @@ void knapsack_solve_dynamic_up(knapsack_t *k) {
 
 }
 
-void knapsack_fptas(knapsack_t *k) {
+void knapsack_fptas(knapsack_t *k, int fptas_eps) {
 	/*
 	 * 2. kolik bytu budu ignorovat: vzorecek
 	 * (dvojkovej logarismtus z log2(eps*costMAx/pocetpredmetu)
@@ -331,7 +321,7 @@ void knapsack_fptas(knapsack_t *k) {
 		cost_max = max(cost_max, k->items[i].cost);
 	}
 
-	double eps = 0.25;
+	double eps = ((double) fptas_eps) / 100.0;
 	int scale = log((eps * cost_max) / k->n) / log(2);
 	scale = max(0, scale);
 
@@ -461,6 +451,7 @@ int main(int argc, char *argv[]) {
 	knapsnack_result_t result = { 0, 0, 0 };
 	int pass_best = 0;
 	int bruteforce_cut = 0;
+	int fptas_eps = -1;
 
 	knapsack_dynamic_t dynamic = UNKNOWN_DYNAMIC;
 	double relative;
@@ -468,7 +459,7 @@ int main(int argc, char *argv[]) {
 
 	memset(&k, 0, sizeof(knapsack_t));
 
-	while ((c = getopt(argc, argv, "b:d:fh:r:tp")) != -1) {
+	while ((c = getopt(argc, argv, "b:d:f:h:r:tp")) != -1) {
 		switch (c) {
 		case 'b':
 			method = BRUTEFORCE;
@@ -480,6 +471,7 @@ int main(int argc, char *argv[]) {
 			break;
 		case 'f':
 			method = FPTAS;
+			fptas_eps = atoi(optarg);
 			break;
 		case 'h':
 			method = HEURISTIC;
@@ -536,7 +528,7 @@ int main(int argc, char *argv[]) {
 				}
 				break;
 			case FPTAS:
-				knapsack_fptas(&k);
+				knapsack_fptas(&k, fptas_eps);
 				break;
 			case HEURISTIC:
 				knapsack_solve_heuristic(&k, heuristic);

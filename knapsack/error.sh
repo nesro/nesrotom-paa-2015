@@ -45,7 +45,7 @@ gnuplot_wrapper() {
 __EOF__
 }
 
-for m in f d1 d2 b0 b1 h1 h2 h3; do
+for m in f0 f25 f50 f75 f100 d1 d2 b0 b1 h1 h2 h3; do
 	gpfile_err=./err_$m.plot
 	gpfile_time=./time_$m.plot
 	echo "> m=$m"
@@ -73,7 +73,7 @@ for m in f d1 d2 b0 b1 h1 h2 h3; do
 		err_max=$(echo $r | cut -d_ -f2)
 
 		# tady jsem si zjistil, ze to mam dobre
-		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]] || [[ $m = f ]]; then
+		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]] || [[ $m =~ f* ]]; then
 			echo "err_max=$err_max"
 		fi
 
@@ -82,7 +82,7 @@ for m in f d1 d2 b0 b1 h1 h2 h3; do
 		echo "$prg_time $problem_size" >>$gpfile_time
 	done
 
-	if [[ ! $m =~ b[01] ]] && [[ ! $m =~ d[12] ]]; then
+	if [[ ! $m =~ b[01] ]] && [[ ! $m =~ d[12] ]] && [[ ! $m == f0 ]]; then
 		gnuplot_wrapper $gpfile_err ./err_$m.pdf "instance size" "relative error" 3
 	fi
 
