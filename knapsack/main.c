@@ -313,11 +313,10 @@ void knapsack_fptas(knapsack_t *k, int fptas_eps) {
 	int i;
 	int c;
 	int dyntbl[MAX_ITEMS + 1][MAX_COST + 1];
-
 	int cost_sum = 0;
 	int cost_max = 0;
+
 	for (i = 0; i < k->n; i++) {
-		cost_sum += k->items[i].cost;
 		cost_max = max(cost_max, k->items[i].cost);
 	}
 
@@ -327,6 +326,10 @@ void knapsack_fptas(knapsack_t *k, int fptas_eps) {
 
 	for (i = 0; i < k->n; i++) {
 		k->items[i].cost >>= scale;
+	}
+
+	for (i = 0; i < k->n; i++) {
+		cost_sum += k->items[i].cost;
 	}
 
 	assert(cost_sum < MAX_COST);
