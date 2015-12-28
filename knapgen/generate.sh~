@@ -1,0 +1,41 @@
+#!/bin/bash
+set -xv
+
+N=20
+n=30
+GEN=../knapgen
+I="-I 100"
+
+$GEN $I -N $N -n $n -m 0.5 -W 500 -C 500 -k 0.5 -d 0 >00_baseline.inst.dat
+
+# max weight
+for weight in 100 500 1250 2000; do
+$GEN $I -N $N -n $n -m 0.5 -W $weight -C 500 -k 0.5 -d 0 \
+  >01_weight_${weight}.inst.dat
+done
+
+# max cost
+for cost in 100 500 1250 2000; do
+$GEN $I -N $N -n $n -m 0.5 -W 500 -C $cost -k 0.5 -d 0 \
+  >02_cost_${cost}.inst.dat
+done
+
+# ratio
+for ratio in 0.2 0.5 0.8; do
+$GEN $I -N $N -n $n -m $ratio -W 500 -C 500 -k 0.5 -d 0 \
+  >03_ratio_${ratio}.inst.dat
+done
+
+# size
+for size in -1 0 1; do
+$GEN $I -N $N -n $n -m 0.5 -W 500 -C 200 -k 0.5 -d $size \
+>04_size_${size}.inst.dat
+done
+
+# granuality
+for gran in 0.2 0.5 0.8; do
+$GEN $I -N $N -n $n -m 0.5 -W 500 -C 200 -k $gran -d 0 \
+  >05_gran_${gran}.inst.dat
+done
+
+set +xv

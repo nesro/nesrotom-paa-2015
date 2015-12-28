@@ -7,6 +7,7 @@
 /******************************************************************************/
 
 #include <stdio.h>
+#include <stdbool.h>
 #include <math.h>
 #include <limits.h>
 #include <stdlib.h>
@@ -16,14 +17,22 @@
 #include <omp.h>
 #include <ctype.h>
 #include <unistd.h>
+#include <time.h>
 
 /******************************************************************************/
 
-#define MAX_ITEMS 50
-#define MAX_CAPACITY 1000
-#define MAX_COST 8000
+#define MAX_ITEMS 500
+#define MAX_CAPACITY 500000
+#define MAX_COST 500000
 
 /******************************************************************************/
+
+inline void swap(int *a, int *b) {
+	int *tmp;
+	tmp = a;
+	a = b;
+	b = tmp;
+}
 
 inline int max(int a, int b) {
 	if (a > b) {
@@ -56,10 +65,12 @@ typedef struct knapsack_item {
 } knapsack_item_t;
 
 typedef struct knapsack_solution {
+	/* TODO: add pointer to knapsack */
 	int items[MAX_ITEMS];
 	int weight;
 	int cost;
 	int cost_best; /* obsolete */
+	int fitness;
 } knapsack_solution_t;
 
 typedef struct knapsack {
@@ -72,7 +83,7 @@ typedef struct knapsack {
 } knapsack_t;
 
 typedef enum knapsack_method {
-	UNKNOWN_METHOD, BRUTEFORCE, HEURISTIC, DYNAMIC, FPTAS
+	UNKNOWN_METHOD, BRUTEFORCE, HEURISTIC, DYNAMIC, FPTAS, GA
 } knapsack_method_t;
 
 typedef enum knapsnack_heuristic {
@@ -203,7 +214,7 @@ void knapsack_solve_bruteforce_inner(knapsack_t *k, int n,
 }
 
 void knapsack_solve_bruteforce(knapsack_t *k, int optimize) {
-	knapsack_solution_t s = { { 0 }, 0, 0, 0 };
+	knapsack_solution_t s = { { 0 }, 0, 0, 0, 0 };
 	knapsack_item_t remaining[50]; /* sum of remaining */
 	int i;
 
@@ -255,10 +266,40 @@ void knapsack_solve_dynamic_down(knapsack_t *k) {
 	k->solution.cost = knapsack_d2(k, k->n - 1, k->cap);
 }
 
+int malloc_2d(int ***arg_arr, int **arg_arr_data, int x, int y) {
+	int **arr = *arg_arr;
+	int *arr_data = *arg_arr_data;
+	int i;
+
+	arr = malloc(x * sizeof(int *));
+	if (arr == NULL) {
+		return (0);
+	}
+
+	arr_data = malloc(x * y * sizeof(int));
+	if (arr_data == NULL) {
+		return (0);
+	}
+
+	for (i = 0; i < x; i++) {
+		arr[i] = arr_data + (i * y);
+	}
+
+	*arg_arr = arr;
+	*arg_arr_data = arr_data;
+
+	return (1);
+}
+
 void knapsack_solve_dynamic_up(knapsack_t *k) {
 	int i;
 	int w;
-	int dyntbl[MAX_ITEMS + 1][MAX_CAPACITY + 1];
+
+//	int dyntbl[MAX_ITEMS + 1][MAX_CAPACITY + 1];
+	int **dyntbl = NULL;
+	int *dyntbl_data = NULL;
+
+	malloc_2d(&dyntbl, &dyntbl_data, k->n + 1, k->cap + 1);
 
 	for (i = 0; i <= k->n; i++) {
 		for (w = 0; w <= k->cap; w++) {
@@ -289,6 +330,8 @@ void knapsack_solve_dynamic_up(knapsack_t *k) {
 	 printf("\n");
 	 }*/
 
+	free(dyntbl);
+	free(dyntbl_data);
 }
 
 void knapsack_fptas(knapsack_t *k, int fptas_eps) {
@@ -440,6 +483,202 @@ void knapsack_print(knapsack_t *k) {
 }
 
 /******************************************************************************/
+/* GA */
+
+/*  global variables */
+int ga_population_g; /* size of population (how many genomes) */
+int ga_in_tournament_g; /* how many genoms in tournament */
+int ga_repeat_g; /* how many repeation cycles */
+int ga_mutation_g; /* mutation rate, in 0.1 % */
+int ga_cross_cnt_g;
+
+void ga_cross_2p(knapsack_t *k, knapsack_solution_t *sa, knapsack_solution_t *sb) {
+	int cross_point1 = rand() % k->n;
+	int cross_point2 = rand() % k->n;
+	int i;
+
+	if (cross_point1 > cross_point2) {
+		swap(&cross_point1, &cross_point2);
+	}
+
+	for (i = 0; i < k->n; i++) {
+		if (i < cross_point1 && i > cross_point2) {
+			swap(&sa->items[i], &sb->items[i]);
+		}
+	}
+}
+
+void ga_cross_1p(knapsack_t *k, knapsack_solution_t *sa, knapsack_solution_t *sb) {
+	int cross_point1 = rand() % k->n;
+	int i;
+
+	for (i = 0; i < k->n; i++) {
+		if (i < cross_point1) {
+			swap(&sa->items[i], &sb->items[i]);
+		}
+	}
+}
+
+int ga_fitness(knapsack_t *k, knapsack_solution_t *s) {
+	int i;
+	int solution_cost = 0;
+	int solution_weight = 0;
+
+	for (i = 0; i < k->n; i++) {
+		if (s->items[i] == 1) {
+			solution_cost += k->items[i].cost;
+			solution_weight += k->items[i].weight;
+		}
+	}
+
+	if (solution_weight > k->cap) {
+		return (0);
+	}
+
+	return (solution_cost);
+}
+
+void ga_mutate(knapsack_t *k, knapsack_solution_t *s) {
+	int i;
+
+	for (i = 0; i < k->n; i++) {
+		if (rand() % 1000 <= ga_mutation_g) {
+			s->items[i] = s->items[i] ? 0 : 1;
+		}
+	}
+}
+
+void ga_randomize(knapsack_t *k, knapsack_solution_t *s) {
+	int i;
+
+	for (i = 0; i < k->n; i++) {
+		if ((rand() % 2) == 0) {
+			s->items[i] = 0;
+		} else {
+			s->items[i] = 1;
+		}
+	}
+}
+
+int ga_fitness_cmp(const void *a, const void *b) {
+	knapsack_solution_t *sa = (knapsack_solution_t *) a;
+	knapsack_solution_t *sb = (knapsack_solution_t *) b;
+
+	return (sb->fitness - sa->fitness);
+}
+
+/* sa = solution array */
+knapsack_solution_t* ga_select(knapsack_t *k, knapsack_solution_t *sa) {
+	knapsack_solution_t *selected[ga_in_tournament_g];
+	int i;
+	int best = 0;
+
+	for (i = 0; i < ga_in_tournament_g; i++) {
+		selected[i] = &sa[rand() % k->n];
+	}
+
+	for (i = 1; i < ga_in_tournament_g; i++) {
+		if (selected[i]->fitness > selected[best]->fitness) {
+			best = i;
+		}
+	}
+
+	return (selected[best]);
+}
+
+/*
+ https://edux.fit.cvut.cz/courses/BI-ZUM/_media/lectures/05-evolution-v3.0.pdf
+ */
+void ga_main(knapsack_t *k) {
+	int i;
+	int j;
+
+	int popul;
+	int in_tournament;
+	int mutation;
+
+	int best_popul;
+	int best_in_tournament;
+	int best_mutation;
+	int best_fitness = -1;
+
+	knapsack_solution_t *sa;
+	knapsack_solution_t *sb;
+	knapsack_solution_t *stmp;
+
+	ga_repeat_g = 1000;
+
+//./knapgen -I 42 -n 100 -N 1 -m 0.5 -k 0.5 -W 1000 -C 1000 -d 0 2>/dev/null >../knapsack/tests/knap_ga_100.inst.dat
+
+	for (popul = 1000; popul <= 1000; popul += 50) {
+		ga_population_g = popul;
+
+		for (in_tournament = 50; in_tournament <= 50; in_tournament += 10) {
+			ga_in_tournament_g = in_tournament;
+
+			for (mutation = 8; mutation <= 8; mutation++) {
+				ga_mutation_g = mutation;
+
+				srand(0);
+
+				sa = malloc(popul * sizeof(knapsack_solution_t));
+				sb = malloc(popul * sizeof(knapsack_solution_t));
+				assert(sa && sb);
+
+				for (i = 0; i < popul; i++) {
+					do {
+						ga_randomize(k, &sa[i]);
+						sa[i].fitness = ga_fitness(k, &sa[i]);
+					} while (sa[i].fitness == 0);
+				}
+
+				for (j = 0; j < ga_repeat_g; j++) {
+					for (i = 0; i < popul; i += 2) {
+						memcpy(&sb[i + 0], ga_select(k, sa),
+								sizeof(knapsack_solution_t));
+						memcpy(&sb[i + 1], ga_select(k, sa),
+								sizeof(knapsack_solution_t));
+
+						ga_cross_2p(k, &sb[i + 0], &sb[i + 1]);
+						//ga_cross_1p(k, &sb[i + 0], &sb[i + 1]);
+
+						ga_mutate(k, &sb[i + 0]);
+						ga_mutate(k, &sb[i + 1]);
+
+						sb[i + 0].fitness = ga_fitness(k, &sb[i + 0]);
+						sb[i + 1].fitness = ga_fitness(k, &sb[i + 1]);
+					}
+
+					stmp = sa;
+					sa = sb;
+					sb = stmp;
+				}
+
+				qsort(sa, popul, sizeof(knapsack_solution_t), ga_fitness_cmp);
+
+				k->cost_best = sa[0].fitness;
+
+				if (best_fitness < sa[0].fitness) {
+					best_fitness = sa[0].fitness;
+					best_popul = popul;
+					best_in_tournament = in_tournament;
+					best_mutation = mutation;
+				}
+
+				printf("%d %d %d %d\n", sa[0].fitness, popul, in_tournament,
+						mutation);
+
+				free(sa);
+				free(sb);
+			}
+		}
+	}
+
+	printf("best_fitness=%d best_popul=%d best_in_tour=%d best_mutati=%d\n",
+			best_fitness, best_popul, best_in_tournament, best_mutation);
+}
+
+/******************************************************************************/
 
 int main(int argc, char *argv[]) {
 	knapsack_t k;
@@ -455,22 +694,32 @@ int main(int argc, char *argv[]) {
 	int pass_best = 0;
 	int bruteforce_cut = 0;
 	int fptas_eps = -1;
+	int show_me_error_and_time = 0;
 
 	knapsack_dynamic_t dynamic = UNKNOWN_DYNAMIC;
 	double relative;
 	int lines = 0;
 
+	//srand (time(NULL));
+	srand(0);
+
 	memset(&k, 0, sizeof(knapsack_t));
 
-	while ((c = getopt(argc, argv, "b:d:f:h:r:tp")) != -1) {
+	while ((c = getopt(argc, argv, "b:ed:f:Gh:r:tp")) != -1) {
 		switch (c) {
 		case 'b':
 			method = BRUTEFORCE;
 			bruteforce_cut = atoi(optarg);
 			break;
+		case 'e':
+			show_me_error_and_time = 1;
+			break;
 		case 'd':
 			method = DYNAMIC;
 			dynamic = atoi(optarg);
+			break;
+		case 'G':
+			method = GA;
 			break;
 		case 'f':
 			method = FPTAS;
@@ -536,6 +785,9 @@ int main(int argc, char *argv[]) {
 			case HEURISTIC:
 				knapsack_solve_heuristic(&k, heuristic);
 				break;
+			case GA:
+				ga_main(&k);
+				break;
 			case UNKNOWN_METHOD:
 				fprintf(stderr, "select method pls\n");
 				return (EXIT_FAILURE);
@@ -567,8 +819,15 @@ int main(int argc, char *argv[]) {
 	result.time = omp_get_wtime() - result.time;
 
 	result.error_relative = result.error_relative / (double) lines;
-	printf("%lf_%lf_%lf\n", result.error_relative, result.error_maximal,
-			result.time);
+
+	if (result.error_relative < 0) {
+		result.error_relative = 0;
+	}
+
+	if (show_me_error_and_time) {
+		printf("%lf_%lf_%lf\n", result.error_relative, result.error_maximal,
+				result.time);
+	}
 
 	if (time_show) {
 		time_end = omp_get_wtime();

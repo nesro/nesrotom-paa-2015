@@ -45,9 +45,9 @@ gnuplot_wrapper() {
 __EOF__
 }
 
-#for m in f0 f25 f50 f75 f100 d1 d2 b0 b1 h1 h2 h3; do
+for m in f0 f25 f50 f75 f100 d1 d2 b0 b1 h1 h2 h3; do
 #for m in f0 f10 f25 f50 f75 d1 d2 b0 b1 h1 h2 h3; do
-for m in b1; do
+#for m in d1 d2; do
 	gpfile_err=./err_$m.plot
 	gpfile_time=./time_$m.plot
 	echo "> m=$m"
@@ -55,29 +55,29 @@ for m in b1; do
 	echo "time instance_size" >$gpfile_time
 	for i in tests/*.inst.dat; do
 		problem_size=$(echo $i | sed 's/[^0-9]*//g')
-		if [[ $m =~ b[0] ]] && (( $problem_size >= 25 )); then
+		if [[ $m =~ b[01] ]] && (( $problem_size >= 20 )); then
 			continue
 		fi
-		if [[ $m == d2 ]] && (( $problem_size >= 22 )); then
+		if [[ $m == d2 ]] && (( $problem_size >= 20 )); then
 			continue
 		fi
 
 		echo "> > problem_size=$problem_size"
 
 		if [[ $m =~ b[01] ]]; then
-			r=5
+			r=1
 		else
-			r=1000
+			r=10
 		fi
 
-		r=$(paste -d ' ' <(cat $(echo $i | sed 's/inst/sol/') | cut -d ' ' -f 3) $i | $valgrind ./main -p -$m -r $r | grep '_')
+		r=$(paste -d ' ' <(cat $(echo $i | sed 's/inst/sol/') | cut -d ' ' -f 3) $i | $valgrind ./main -p -$m -r $r -e | grep '_')
+		echo "AAAA $r AAAA"
+		
 		err_rel=$(echo $r | cut -d_ -f1)
 		err_max=$(echo $r | cut -d_ -f2)
 
 		# tady jsem si zjistil, ze to mam dobre
-		if [[ $m =~ b[01] ]] || [[ $m = d[12] ]] || [[ $m =~ f* ]]; then
-			echo "err_max=$err_max"
-		fi
+		echo "err_max=$err_max"
 
 		prg_time=$(echo $r | cut -d_ -f3)
 		echo "$err_max $err_rel $problem_size" >>$gpfile_err
