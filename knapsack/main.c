@@ -27,7 +27,7 @@
 
 /******************************************************************************/
 
-inline void swap(int *a, int *b) {
+inline void swap_uint32(int *a, int *b) {
 	int *tmp;
 	tmp = a;
 	a = b;
@@ -498,12 +498,12 @@ void ga_cross_2p(knapsack_t *k, knapsack_solution_t *sa, knapsack_solution_t *sb
 	int i;
 
 	if (cross_point1 > cross_point2) {
-		swap(&cross_point1, &cross_point2);
+		swap_uint32(&cross_point1, &cross_point2);
 	}
 
 	for (i = 0; i < k->n; i++) {
 		if (i < cross_point1 && i > cross_point2) {
-			swap(&sa->items[i], &sb->items[i]);
+			swap_uint32(&sa->items[i], &sb->items[i]);
 		}
 	}
 }
@@ -514,7 +514,7 @@ void ga_cross_1p(knapsack_t *k, knapsack_solution_t *sa, knapsack_solution_t *sb
 
 	for (i = 0; i < k->n; i++) {
 		if (i < cross_point1) {
-			swap(&sa->items[i], &sb->items[i]);
+			swap_uint32(&sa->items[i], &sb->items[i]);
 		}
 	}
 }

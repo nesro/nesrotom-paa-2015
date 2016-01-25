@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Wshadow -Wstrict-overflow -fno-strict-aliasing -Werror -pedantic
+CFLAGS=-Wall -Wpedantic -Wextra -Wshadow -Werror -Wstrict-overflow -fno-strict-aliasing  
 LIBS=-fopenmp -lm
 
 all:
