@@ -49,7 +49,7 @@ static void sat_alloc(int n, int m, int k) {
 /* generate specific count of variable weigthts at random */
 static void genWeights(int mod, int count) {
 	for (int i = 0; i < count; i++) {
-		weights[i] = abs(rand()) % mod;
+		weights[i] = rand() % mod;
 	}
 }
 
@@ -122,7 +122,8 @@ int main(int argc, char *argv[]) {
 	int m; /* # of clauses */
 	int mod; /* weight modulus */
 	int i, h; /* loop counter */
-	int knownSolutionCost;
+	int knownSolutionCost = 0;
+	int maxCost = 0;
 //	time_t ts;
 
 	if (argc == 4) {
@@ -170,13 +171,18 @@ int main(int argc, char *argv[]) {
 	write_sat(stdout, n, m);
 
 	/* some extra info. yay. */
-	knownSolutionCost = 0;
 	fprintf(stdout, "c instance by G2\nc solution = ");
 	for (i = 0; i < n; i++) {
 		fprintf(stdout, "%d", t[i]);
-		knownSolutionCost = knownSolutionCost + weights[i];
+		maxCost += weights[i];
+		if (t[i] == 1) {
+			knownSolutionCost += weights[i];
+		}
 	}
-	fprintf(stdout, "\nc known solution cost is %d \n", knownSolutionCost);
+	fprintf(stdout, "\n");
+	fprintf(stdout, "c known solution cost is %d \n", knownSolutionCost);
+	fprintf(stdout, "c max cost is %d \n", maxCost);
+	fprintf(stdout, "c known + max is %d \n", knownSolutionCost + maxCost);
 
 	free(weights);
 

@@ -12,6 +12,10 @@
 #include <stdint.h>
 #include <inttypes.h>
 
+/* fixme: even with -lm it doesn't work */
+#define M_E	2.71828182845904523536
+
+#define _USE_MATH_DEFINES
 #include <math.h>
 #include <limits.h>
 #include <stdlib.h>
@@ -31,6 +35,7 @@ typedef struct sat {
 
 	uint32_t *weights;
 	int32_t **clauses;
+	uint32_t weight_sum;
 } sat_t;
 
 typedef struct individual {
@@ -123,12 +128,14 @@ static sat_t *sat_load() {
 		goto error;
 	}
 
+	sat->weight_sum = 0;
 	for (uint32_t i = 0; i < sat->vars_cnt; i++) {
 		int res;
 		if ((res = scanf("%" SCNu32, &sat->weights[i])) != 1) {
 			fprintf(stderr, "reading weight %d has failed, scanf=%d\n", i, res);
 			goto error;
 		}
+		sat->weight_sum += sat->weights[i];
 	}
 
 	sat->clauses = malloc(sizeof(int8_t *) * sat->clauses_cnt);
@@ -183,7 +190,7 @@ uint32_t formula_weight(sat_t *sat, const bool *chromosome) {
 	return (weight);
 }
 
-bool is_clause_true(sat_t *sat, bool *genome, int clause_id) {
+bool is_clause_true(sat_t *sat, bool *genome, uint32_t clause_id) {
 	for (uint32_t i = 0; i < 3; i++) {
 		int32_t val = sat->clauses[clause_id][i];
 		if (val > 0) {
@@ -418,17 +425,220 @@ void sat_print(sat_t *sat) {
 		printf("weights[%u] = %u\n", i, sat->weights[i]);
 	}
 }
+
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+
+typedef struct state {
+	bool *ch; /* chromosome */
+	uint32_t ch_len;
+	uint32_t c; /* cost */
+} state_t;
+
+void state_randomize(state_t *state) {
+	for (uint32_t i = 0; i < state->ch_len; i++) {
+		state->ch[i] = rand() % 2;
+	}
+}
+
+#define RANDOMIZE 1
+#define DONT_RANDOMIZE 0
+state_t *state_init(uint32_t len, bool randomize) {
+	state_t *state;
+
+	state = calloc(1, sizeof(state_t));
+	assert(state);
+
+	state->ch_len = len;
+	state->ch = calloc(len, sizeof(bool));
+	assert(state->ch);
+
+	if (randomize) {
+		state_randomize(state);
+	}
+
+	return (state);
+}
+
+void state_free(state_t *state) {
+	if (state) {
+		free(state->ch);
+	}
+	free(state);
+	state = NULL;
+}
+
+void state_print(state_t *state) {
+	for (uint32_t i = 0; i < state->ch_len; i++) {
+		printf("%d", state->ch[i]);
+	}
+	printf("\n");
+}
+
+void state_swap(state_t **state, state_t **state_next) {
+	state_t *tmp;
+	tmp = *state;
+	*state = *state_next;
+	*state_next = tmp;
+}
+
+void state_gen_next(state_t *state, state_t *state_next) {
+	memcpy(state_next->ch, state->ch, state->ch_len * sizeof(bool));
+	uint32_t rnd_ind = rand() % state->ch_len;
+	state_next->ch[rnd_ind] = (state_next->ch[rnd_ind] + 1) % 2;
+}
+
+/******************************************************************************/
+/* cost functions */
+
+uint32_t cost_main(sat_t *sat, state_t *state) {
+	uint32_t true_cnt = 0;
+
+	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
+		if (is_clause_true(sat, state->ch, i)) {
+			true_cnt++;
+		}
+	}
+
+	if (true_cnt == sat->clauses_cnt) {
+		return (formula_weight(sat, state->ch));
+	} else {
+		/* invalid state */
+		return (0);
+	}
+}
+
+uint32_t cost2(sat_t *sat, state_t *state) {
+	uint32_t true_cnt = 0;
+
+	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
+		if (is_clause_true(sat, state->ch, i)) {
+			true_cnt++;
+		}
+	}
+
+	if (true_cnt == sat->clauses_cnt) {
+		return (formula_weight(sat, state->ch));
+	} else {
+		return (true_cnt);
+	}
+}
+
+uint32_t cost(sat_t *sat, state_t *state) {
+	uint32_t true_cnt = 0;
+
+	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
+		if (is_clause_true(sat, state->ch, i)) {
+			true_cnt++;
+		}
+	}
+
+	if (true_cnt == sat->clauses_cnt) {
+		return (formula_weight(sat, state->ch) + sat->weight_sum);
+	} else {
+		return (((double) true_cnt / (double) sat->clauses_cnt)
+				* sat->weight_sum);
+	}
+}
+
+/******************************************************************************/
+
+void state_update_cost(state_t *state, sat_t *sat) {
+	state->c = cost(sat, state);
+}
+
+double randd() {
+	return ((double) rand() / (double) RAND_MAX);
+}
+
+/*
+ * eq: equlibirium factor
+ * ti: temperature initial
+ * te: temperature end
+ * cf: cooling factor (0 < cf < 1)
+ */
+void simulated_annealing(sat_t *sat, int eq, double ti, double te, double cf) {
+	state_t *state = state_init(sat->vars_cnt, RANDOMIZE);
+	state_t *state_next = state_init(sat->vars_cnt, DONT_RANDOMIZE);
+//	uint32_t it = 0;
+
+//	printf("ti=%lf te=%lf cf=%lf, eq=%d\n", ti, te, cf, eq);
+
+	for (double t = ti; te < t; t *= cf) {
+		for (int i = 0; i < eq; i++) {
+			state_gen_next(state, state_next);
+			double d = ((double) cost(sat, state))
+					- ((double) cost(sat, state_next));
+
+			if (d < 0 || randd() < pow(M_E, -d / t)) {
+				state_swap(&state, &state_next);
+				continue;
+			}
+
+			//printf("it= %4u best= %4u bits= ", it++, cost(sat, state));
+//			state_print(state);
+		}
+	}
+
+	printf("sa         best: cost= %4u bits= ", cost_main(sat, state));
+	state_print(state);
+
+	state_free(state);
+	state_free(state_next);
+}
+
+/******************************************************************************/
+
+void sat_bruteforce_inner(sat_t *sat, state_t *state, state_t *state_best,
+		uint32_t i) {
+	if (i == 0) {
+		if (state->c > state_best->c) {
+			memcpy(state_best->ch, state->ch, state->ch_len * sizeof(bool));
+			state_best->c = state->c;
+		}
+
+		return;
+	}
+
+	i--;
+
+	state->ch[i] = 1;
+	state_update_cost(state, sat);
+	sat_bruteforce_inner(sat, state, state_best, i);
+
+	state->ch[i] = 0;
+	state_update_cost(state, sat);
+	sat_bruteforce_inner(sat, state, state_best, i);
+}
+
+void sat_bruteforce(sat_t *sat) {
+	state_t *state_best = state_init(sat->vars_cnt, DONT_RANDOMIZE);
+	state_t *state = state_init(sat->vars_cnt, DONT_RANDOMIZE);
+
+	sat_bruteforce_inner(sat, state, state_best, sat->vars_cnt);
+
+	printf("bruteforce best: cost= %4u bits= ", cost_main(sat, state_best));
+	state_print(state_best);
+
+	state_free(state);
+	state_free(state_best);
+}
+
 /******************************************************************************/
 
 int main(void) {
 	sat_t *sat;
 
-	srand(1);
+	srand(time(0));
 
 	sat = sat_load();
 	//sat_print(sat);
 
-	sat_simulated_evolution(sat, 100);
+//	sat_simulated_evolution(sat, 100);
+
+	sat_bruteforce(sat);
+	simulated_annealing(sat, 3, 2.0, 0.08, 0.98);
 
 	sat_free(sat);
 

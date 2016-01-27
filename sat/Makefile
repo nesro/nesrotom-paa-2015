@@ -1,13 +1,13 @@
 CC=gcc
-CFLAGS=-Wall -Wpedantic -Wextra -Wshadow -Werror -Wstrict-overflow -fno-strict-aliasing  
-LIBS=-fopenmp -lm
+CFLAGS=-std=c99 -Wall -Wpedantic -Wextra -Wshadow -Werror -Wstrict-overflow -fno-strict-aliasing  
+CLIBS=-fopenmp -lm
 
 all:
-	$(CC) $(CFLAGS) -Og -ggdb3 -std=c99 main.c -o main $(CLIBS)
-	$(CC) $(CFLAGS) -Og -ggdb3 -std=c99 generator.c -o generator
+	$(CC) $(CFLAGS) -Og -ggdb3 main.c -o main $(CLIBS)
+	$(CC) $(CFLAGS) -Og -ggdb3 generator.c -o generator
 
-#fast:
-	#gcc -Wall -Wextra -Werror -pedantic -Ofast -std=c99 main.c -o main -fopenmp -lm
+fast:
+	$(CC) $(CFLAGS) -Ofast main.c -o main $(CLIBS)
 
 clean:
 	rm main generator
