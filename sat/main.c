@@ -36,6 +36,7 @@ typedef struct sat {
 	uint32_t *weights;
 	int32_t **clauses;
 	uint32_t weight_sum;
+	uint32_t weight_max; /* maximum of the weights */
 } sat_t;
 
 typedef struct individual {
@@ -118,6 +119,7 @@ static sat_t *sat_load() {
 
 	sat->weights = malloc(sizeof(uint32_t) * sat->vars_cnt);
 
+#ifdef SAT_READ_WEIGHTS
 	char c;
 	if (scanf("%c", &c) != 1) {
 		fprintf(stderr, "reading w failed\n");
@@ -127,16 +129,29 @@ static sat_t *sat_load() {
 		fprintf(stderr, "reading w failed its -%c-\n", c);
 		goto error;
 	}
+#else
+	srand(0);
+#endif
 
 	sat->weight_sum = 0;
+	sat->weight_max = 0;
 	for (uint32_t i = 0; i < sat->vars_cnt; i++) {
+#ifdef SAT_READ_WEIGHTS
 		int res;
 		if ((res = scanf("%" SCNu32, &sat->weights[i])) != 1) {
 			fprintf(stderr, "reading weight %d has failed, scanf=%d\n", i, res);
 			goto error;
 		}
+#else
+		sat->weights[i] = (rand() % 10) + 1;
+#endif
 		sat->weight_sum += sat->weights[i];
+		sat->weight_max = max(sat->weight_max, sat->weights[i]);
 	}
+
+#ifndef SAT_READ_WEIGHTS
+	srand(time(0));
+#endif
 
 	sat->clauses = malloc(sizeof(int8_t *) * sat->clauses_cnt);
 	assert(sat->clauses);
@@ -391,16 +406,16 @@ void sat_simulated_evolution(sat_t *sat, uint32_t pop_size) {
 		}
 		favg /= pop->inds_cnt;
 
-		fprintf(stdout, "gen=%u avg=%u best ind:", gen, favg);
-		ind_print(pop->inds[0]);
+//		fprintf(stdout, "gen=%u avg=%u best ind:", gen, favg);
+//		ind_print(pop->inds[0]);
 
 		if (ind_best->fitness < pop->inds[0]->fitness) {
 			memcpy(ind_best->ch, pop->inds[0]->ch, sizeof(bool) * ic);
 		}
 	}
 
-	fprintf(stdout, "total best: ");
-	ind_print(ind_best);
+	fprintf(stdout, "total best: %u\n", ind_best->fitness);
+//	ind_print(ind_best);
 
 //	printf("best ind: ");
 //	ind_print(pop->inds[0]);
@@ -442,8 +457,9 @@ void state_randomize(state_t *state) {
 	}
 }
 
-#define RANDOMIZE 1
-#define DONT_RANDOMIZE 0
+#define STATE_RANDOMIZE 1
+#define STATE_ALL_0 0
+#define STATE_ALL_1 1
 state_t *state_init(uint32_t len, bool randomize) {
 	state_t *state;
 
@@ -471,9 +487,9 @@ void state_free(state_t *state) {
 
 void state_print(state_t *state) {
 	for (uint32_t i = 0; i < state->ch_len; i++) {
-		printf("%d", state->ch[i]);
+		fprintf(stderr, "%d", state->ch[i]);
 	}
-	printf("\n");
+	fprintf(stderr, "\n");
 }
 
 void state_swap(state_t **state, state_t **state_next) {
@@ -483,10 +499,14 @@ void state_swap(state_t **state, state_t **state_next) {
 	*state_next = tmp;
 }
 
+uint32_t *gen_next_tbl;
+
 void state_gen_next(state_t *state, state_t *state_next) {
 	memcpy(state_next->ch, state->ch, state->ch_len * sizeof(bool));
+
 	uint32_t rnd_ind = rand() % state->ch_len;
 	state_next->ch[rnd_ind] = (state_next->ch[rnd_ind] + 1) % 2;
+
 }
 
 /******************************************************************************/
@@ -509,7 +529,7 @@ uint32_t cost_main(sat_t *sat, state_t *state) {
 	}
 }
 
-uint32_t cost2(sat_t *sat, state_t *state) {
+double cost1(sat_t *sat, state_t *state) {
 	uint32_t true_cnt = 0;
 
 	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
@@ -525,7 +545,7 @@ uint32_t cost2(sat_t *sat, state_t *state) {
 	}
 }
 
-uint32_t cost(sat_t *sat, state_t *state) {
+double cost2(sat_t *sat, state_t *state) {
 	uint32_t true_cnt = 0;
 
 	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
@@ -542,14 +562,45 @@ uint32_t cost(sat_t *sat, state_t *state) {
 	}
 }
 
+double cost3(sat_t *sat, state_t *state) {
+	uint32_t true_cnt = 0;
+
+	for (uint32_t i = 0; i < sat->clauses_cnt; i++) {
+		if (is_clause_true(sat, state->ch, i)) {
+			true_cnt++;
+		}
+	}
+
+	return (true_cnt * (sat->weight_max + 1)) + formula_weight(sat, state->ch);
+}
+
+/* cost_f is a pointer to a cost function */
+typedef double (*cost_f)(sat_t *, state_t *);
+
+/* global variable holding cost function */
+cost_f cost = NULL;
+
 /******************************************************************************/
 
 void state_update_cost(state_t *state, sat_t *sat) {
-	state->c = cost(sat, state);
+	state->c = cost_main(sat, state);
 }
 
 double randd() {
 	return ((double) rand() / (double) RAND_MAX);
+}
+
+void permutation(uint32_t *p, uint32_t n) {
+	for (uint32_t i = 0; i < n; i++) {
+		p[i] = i;
+	}
+
+	for (uint32_t i = 0; i < n; i++) {
+		uint32_t j = rand() % (i + 1);
+		uint32_t tmp = p[i];
+		p[i] = p[j];
+		p[j] = tmp;
+	}
 }
 
 /*
@@ -558,34 +609,80 @@ double randd() {
  * te: temperature end
  * cf: cooling factor (0 < cf < 1)
  */
-void simulated_annealing(sat_t *sat, int eq, double ti, double te, double cf) {
-	state_t *state = state_init(sat->vars_cnt, RANDOMIZE);
-	state_t *state_next = state_init(sat->vars_cnt, DONT_RANDOMIZE);
-//	uint32_t it = 0;
+uint32_t simulated_annealing(sat_t *sat, double te, double steps) {
+	state_t *state = state_init(sat->vars_cnt, STATE_RANDOMIZE);
+	state_t *state_next = state_init(sat->vars_cnt, STATE_ALL_0);
+	uint32_t ret;
+	uint32_t eq; /* equlibrium */
+	double cf; /* cooling factor */
+	double ti; /* temperature initial */
+
+	ti = sat->vars_cnt * sat->weight_max * 10;
+	cf = pow(te / ti, 1 / (steps - 1));
+//	cf = 1 - ((ti - te) / steps);
+
+	static bool print_once = true;
+
+	uint32_t it = 0;
 
 //	printf("ti=%lf te=%lf cf=%lf, eq=%d\n", ti, te, cf, eq);
 
+//	for (double t = ti; te < t; t *= cf) {
+//		for (int i = 0; i < eq; i++) {
+//			state_gen_next(state, state_next);
+//			double d = ((double) cost(sat, state))
+//					- ((double) cost(sat, state_next));
+//
+//			if (d < 0 || randd() < pow(M_E, -d / t)) {
+//				state_swap(&state, &state_next);
+//				continue;
+//			}
+//
+//			//printf("it= %4u best= %4u bits= ", it++, cost(sat, state));
+//			//			state_print(state);
+//		}
+//	}
+	//http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
+	eq = (uint32_t) (sat->vars_cnt / (double) 2.0);
+	uint32_t *p = calloc(sat->vars_cnt, sizeof(uint32_t));
 	for (double t = ti; te < t; t *= cf) {
-		for (int i = 0; i < eq; i++) {
-			state_gen_next(state, state_next);
-			double d = ((double) cost(sat, state))
-					- ((double) cost(sat, state_next));
+		permutation(p, sat->vars_cnt);
+		it++;
+//		printf("t=%lf\n", t);
+		for (uint32_t i = 0; i < eq; i++) {
+
+			double c = cost(sat, state);
+
+			uint32_t ind = p[i];
+			state->ch[ind] = (state->ch[ind] + 1) % 2;
+
+			double d = (c - (double) cost(sat, state));
 
 			if (d < 0 || randd() < pow(M_E, -d / t)) {
-				state_swap(&state, &state_next);
 				continue;
 			}
 
-			//printf("it= %4u best= %4u bits= ", it++, cost(sat, state));
-//			state_print(state);
+			state->ch[ind] = (state->ch[ind] + 1) % 2;
 		}
+
+		printf("%u %lf\n", it, cost(sat, state));
 	}
 
-	printf("sa         best: cost= %4u bits= ", cost_main(sat, state));
-	state_print(state);
+	/* return the real cost by problem definition */
+	ret = cost_main(sat, state);
 
+	if (print_once) {
+		fprintf(stderr, "ti=%lf cf=%lf it=%u eq=%u\n", ti, cf, it, eq);
+		assert(0 < cf && cf < 1);
+		print_once = false;
+		state_print(state);
+	}
+
+	free(p);
 	state_free(state);
 	state_free(state_next);
+
+	return (ret);
 }
 
 /******************************************************************************/
@@ -613,12 +710,12 @@ void sat_bruteforce_inner(sat_t *sat, state_t *state, state_t *state_best,
 }
 
 void sat_bruteforce(sat_t *sat) {
-	state_t *state_best = state_init(sat->vars_cnt, DONT_RANDOMIZE);
-	state_t *state = state_init(sat->vars_cnt, DONT_RANDOMIZE);
+	state_t *state_best = state_init(sat->vars_cnt, STATE_ALL_0);
+	state_t *state = state_init(sat->vars_cnt, STATE_ALL_0);
 
 	sat_bruteforce_inner(sat, state, state_best, sat->vars_cnt);
 
-	printf("bruteforce best: cost= %4u bits= ", cost_main(sat, state_best));
+	fprintf(stderr, "bruteforce best: cost= %4u bits= ", cost_main(sat, state_best));
 	state_print(state_best);
 
 	state_free(state);
@@ -627,18 +724,76 @@ void sat_bruteforce(sat_t *sat) {
 
 /******************************************************************************/
 
-int main(void) {
+int main(int argc, char *argv[]) {
+	int c;
 	sat_t *sat;
+	uint32_t sa_repeat = 100;
+	uint32_t sa_best = 0;
+	uint32_t sa_sum = 0;
+	bool run_bruteforce = 0;
 
 	srand(time(0));
+
+	while ((c = getopt(argc, argv, "bc:r:")) != -1) {
+		switch (c) {
+		case 'b':
+			run_bruteforce = true;
+			break;
+		case 'c':
+			switch (atoi(optarg)) {
+			case 1:
+				cost = &cost1;
+				break;
+			case 2:
+				cost = &cost2;
+				break;
+			case 3:
+				cost = &cost3;
+				break;
+			default:
+				assert(0);
+				break;
+			}
+			break;
+		case 'r':
+			sa_repeat = (uint32_t) atoi(optarg);
+			break;
+		case '?':
+			fprintf(stderr, "unknown opt\n");
+			return (EXIT_FAILURE);
+			break;
+		default:
+			abort();
+			break;
+		}
+	}
+
+	assert(cost != NULL);
 
 	sat = sat_load();
 	//sat_print(sat);
 
 //	sat_simulated_evolution(sat, 100);
 
-	sat_bruteforce(sat);
-	simulated_annealing(sat, 3, 2.0, 0.08, 0.98);
+	if (run_bruteforce) {
+		sat_bruteforce(sat);
+	}
+
+	double sa_time = omp_get_wtime();
+	for (uint32_t i = 0; i < sa_repeat; i++) {
+		uint32_t res = simulated_annealing(sat, 0.01, 10000);
+		fprintf(stderr, "[%u]", i);
+		fflush(stdout);
+		sa_sum += res;
+		if (sa_best < res) {
+			sa_best = res;
+		}
+	}
+	sa_time = (omp_get_wtime() - sa_time) / (double) sa_repeat;
+	fprintf(stderr, "\n");
+
+	fprintf(stderr, "sa avg=%lf best=%u time=%lf\n",
+			(double) sa_sum / (double) sa_repeat, sa_best, sa_time);
 
 	sat_free(sat);
 
