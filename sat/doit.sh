@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 set -xv
 make
+for f in 200 400 600 860; do
 for i in 1 2 3; do
-  cat ./tests/uf/uf20-01.cnf | ./main -c $i -r 1 1>res$i.txt
-  ./gnuplot.sh res$i "soubor: uf20-01.cnf | cenova funkce: cena$i"
+  cat ./tests/satlib_uf/uf200-01_$f.cnf | ./main -c $i -r 1 1>results/${f}cost$i.txt 2>results/${f}cost${i}_err.txt
+  ./gnuplot.sh results/${f}cost$i "soubor: $f | cenova funkce: cena$i"
+done
 done
 set +xv
 

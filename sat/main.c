@@ -27,6 +27,8 @@
 #include <unistd.h>
 #include <time.h>
 
+uint32_t g_limit = 999; /* limit for clauses */
+
 /******************************************************************************/
 
 typedef struct sat {
@@ -117,6 +119,8 @@ static sat_t *sat_load() {
 		goto error;
 	}
 
+	sat->clauses_cnt = min(sat->clauses_cnt, g_limit);
+
 	sat->weights = malloc(sizeof(uint32_t) * sat->vars_cnt);
 
 #ifdef SAT_READ_WEIGHTS
@@ -143,7 +147,7 @@ static sat_t *sat_load() {
 			goto error;
 		}
 #else
-		sat->weights[i] = (rand() % 10) + 1;
+		sat->weights[i] = (rand() % 5) + 1;
 #endif
 		sat->weight_sum += sat->weights[i];
 		sat->weight_max = max(sat->weight_max, sat->weights[i]);
@@ -539,7 +543,7 @@ double cost1(sat_t *sat, state_t *state) {
 	}
 
 	if (true_cnt == sat->clauses_cnt) {
-		return (formula_weight(sat, state->ch));
+		return (true_cnt + formula_weight(sat, state->ch));
 	} else {
 		return (true_cnt);
 	}
@@ -603,6 +607,8 @@ void permutation(uint32_t *p, uint32_t n) {
 	}
 }
 
+bool g_print_progress = false;
+
 /*
  * eq: equlibirium factor
  * ti: temperature initial
@@ -612,7 +618,8 @@ void permutation(uint32_t *p, uint32_t n) {
 uint32_t simulated_annealing(sat_t *sat, double te, double steps) {
 	state_t *state = state_init(sat->vars_cnt, STATE_RANDOMIZE);
 	state_t *state_next = state_init(sat->vars_cnt, STATE_ALL_0);
-	uint32_t ret;
+	uint32_t ret = 0;
+	uint32_t real_cost = 0;
 	uint32_t eq; /* equlibrium */
 	double cf; /* cooling factor */
 	double ti; /* temperature initial */
@@ -621,7 +628,7 @@ uint32_t simulated_annealing(sat_t *sat, double te, double steps) {
 	cf = pow(te / ti, 1 / (steps - 1));
 //	cf = 1 - ((ti - te) / steps);
 
-	static bool print_once = true;
+	static bool print_once = false; //true;
 
 	uint32_t it = 0;
 
@@ -665,11 +672,14 @@ uint32_t simulated_annealing(sat_t *sat, double te, double steps) {
 			state->ch[ind] = (state->ch[ind] + 1) % 2;
 		}
 
-		printf("%u %lf\n", it, cost(sat, state));
-	}
+		real_cost = cost_main(sat, state);
 
-	/* return the real cost by problem definition */
-	ret = cost_main(sat, state);
+		if (g_print_progress) {
+			printf("%u %u %lf\n", it, real_cost, cost(sat, state));
+		}
+
+		ret = max(ret, real_cost);
+	}
 
 	if (print_once) {
 		fprintf(stderr, "ti=%lf cf=%lf it=%u eq=%u\n", ti, cf, it, eq);
@@ -715,14 +725,15 @@ void sat_bruteforce(sat_t *sat) {
 
 	sat_bruteforce_inner(sat, state, state_best, sat->vars_cnt);
 
-	fprintf(stderr, "bruteforce best: cost= %4u bits= ", cost_main(sat, state_best));
-	state_print(state_best);
+	fprintf(stderr, "bf= %u ", cost_main(sat, state_best));
 
 	state_free(state);
 	state_free(state_best);
 }
 
 /******************************************************************************/
+
+bool g_just_solved = false;
 
 int main(int argc, char *argv[]) {
 	int c;
@@ -731,10 +742,11 @@ int main(int argc, char *argv[]) {
 	uint32_t sa_best = 0;
 	uint32_t sa_sum = 0;
 	bool run_bruteforce = 0;
+	bool sa_run = true;
 
 	srand(time(0));
 
-	while ((c = getopt(argc, argv, "bc:r:")) != -1) {
+	while ((c = getopt(argc, argv, "bc:l:r:sSP")) != -1) {
 		switch (c) {
 		case 'b':
 			run_bruteforce = true;
@@ -755,8 +767,20 @@ int main(int argc, char *argv[]) {
 				break;
 			}
 			break;
+		case 'l':
+			g_limit = atoi(optarg);
+			break;
 		case 'r':
 			sa_repeat = (uint32_t) atoi(optarg);
+			break;
+		case 's':
+			g_just_solved = true;
+			break;
+		case 'S':
+			sa_run = false;
+			break;
+		case 'P':
+			g_print_progress = true;
 			break;
 		case '?':
 			fprintf(stderr, "unknown opt\n");
@@ -768,8 +792,6 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	assert(cost != NULL);
-
 	sat = sat_load();
 	//sat_print(sat);
 
@@ -779,21 +801,37 @@ int main(int argc, char *argv[]) {
 		sat_bruteforce(sat);
 	}
 
-	double sa_time = omp_get_wtime();
-	for (uint32_t i = 0; i < sa_repeat; i++) {
-		uint32_t res = simulated_annealing(sat, 0.01, 10000);
-		fprintf(stderr, "[%u]", i);
-		fflush(stdout);
-		sa_sum += res;
-		if (sa_best < res) {
-			sa_best = res;
+	if (sa_run) {
+		assert(cost != NULL);
+		double sa_time = omp_get_wtime();
+		for (uint32_t i = 0; i < sa_repeat; i++) {
+			uint32_t res = simulated_annealing(sat, 0.01, 10000);
+//		fprintf(stderr, "[%u]", i);
+//		fflush(stdout);
+			sa_sum += res;
+			if (sa_best < res) {
+				sa_best = res;
+			}
+		}
+		sa_time = (omp_get_wtime() - sa_time) / (double) sa_repeat;
+//	fprintf(stderr, "\n");
+
+
+		if (g_just_solved) {
+			if (sa_best > 0) {
+				fprintf(stderr, "1");
+			} else {
+				fprintf(stderr, "0");
+			}
+		} else {
+			fprintf(stderr, "saavg= %u sabest= %u satime= %lf \n",
+					(uint32_t) ((double) sa_sum / (double) sa_repeat), sa_best,
+					sa_time);
+
 		}
 	}
-	sa_time = (omp_get_wtime() - sa_time) / (double) sa_repeat;
-	fprintf(stderr, "\n");
 
-	fprintf(stderr, "sa avg=%lf best=%u time=%lf\n",
-			(double) sa_sum / (double) sa_repeat, sa_best, sa_time);
+
 
 	sat_free(sat);
 

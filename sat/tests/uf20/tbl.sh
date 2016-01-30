@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+#set -xv
+
+c() { bc <<< "scale=10;$1" | sed 's/^\./0./'; }
+
+lim=50
+
+c1a90=$(grep "lim= $lim" res.txt  | awk '{ print $10 }')
+su=$(echo "$c1a90" | paste -sd+ | bc )
+lin=$(echo "$c1a90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+c1b90=$(grep "lim= $lim" res.txt  | awk '{ print $12 }')
+su=$(echo "$c1b90" | paste -sd+ | bc )
+lin=$(echo "$c1b90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+#--
+c2a90=$(grep "lim= $lim" res.txt  | awk '{ print $18 }')
+su=$(echo "$c1a90" | paste -sd+ | bc )
+lin=$(echo "$c1a90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+c2b90=$(grep "lim= $lim" res.txt  | awk '{ print $20 }')
+su=$(echo "$c1b90" | paste -sd+ | bc )
+lin=$(echo "$c1b90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+#--
+c3a90=$(grep "lim= $lim" res.txt  | awk '{ print $26 }')
+su=$(echo "$c1a90" | paste -sd+ | bc )
+lin=$(echo "$c1a90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+c3b90=$(grep "lim= $lim" res.txt  | awk '{ print $28 }')
+su=$(echo "$c3b90" | paste -sd+ | bc )
+lin=$(echo "$c3b90" | wc -l )
+res=$(c " $su / $lin " | cut -c1-4)
+echo -n "& $res "
+
+
+echo ""
+
+#set +xv
+
+
+# c1erv = 10
+# c1erb = 12

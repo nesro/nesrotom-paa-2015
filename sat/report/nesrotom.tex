@@ -11,7 +11,7 @@
 \title{MI-PAA 2015 5.ukol \\
 Řešení problému vážené splnitelnosti booleovské formule pokročilou iterativní metodou
 }
-\author{Tomas Nesrovnal\\nesrotom@fit.cvut.cz}
+\author{Tomas Nesrovnal\\nesrotom@fit.cvut.cz\\utery 16:15}
 \date{\today}
 \maketitle
 
@@ -134,16 +134,21 @@ Stavy jsou reprezentovany binarnim vektorem, ktery znaci ohodnoceni literalu. St
 
 Cilem je najit takove validni reseni, ktere ma nejvetsi soucet vah. Validni reseni s velkou vahou by tedy mely mit velkou cenu. Je ale potreba zohlednit to, ze nejaky stav muze byt nevalidni, ale je blizko nejakeho validniho reseni s velkou cenou.
 
+Empiristicky byly vymysleny 3 cenove funkce, ktere budou dale zkoumany.
+
 \subsubsection{Promenne v cenovych funkcich}
 
-Nasleduje vycet cenovych funkci. Malym c budu oznacnovat pocet splnenych klausoli a velkym C celkovy pocet klausoli. Velkym W oznacim sumu vsech vah: $W = \sum_{i=1}^{n}{w_i}$. Malym w oznacim sumu vah pro splnene klauzole $w = \sum_{i=1}^{n}{y_i w_i}$
+Nasleduje vycet cenovych funkci. Malym c budu oznacnovat pocet splnenych klausoli a velkym C celkovy pocet klausoli. Velkym W oznacim sumu vsech vah: $W = \sum_{i=1}^{n}{w_i}$. Malym w oznacim sumu vah pro splnene klauzole $w = \sum_{i=1}^{n}{y_i w_i}$ MaxW oznacuje maximalni ze vsech vah.
 
 \subsubsection{Cenova funkce $cost1$}
+
+Cenova funkce $cena1$ je jednoducha funkce, ktera diky nasobeni $F(Y)$ zvyhodni validni reseni. Tedy kazde validni reseni bude lepsi nez nevalidni.
 
 $$ cost1(Y) = F(Y)W + \frac{c}{C}w $$
 
+\subsubsection{Cenova funkce $cost2$}
 
-\subsubsection{Cenova funkce $cost1$}
+Cenova funkce $cena2$ deli podle validnich a nevalidnich stavu. Pro validni reseni sectu vahy splnenych klauzoli a maximalni moznou cenu. Pro nevalidni reseni je to pak maximalni cena vynasobena pomerem splnenych a vsech klauzoli.
 
 $$
  cost2(Y) =
@@ -153,9 +158,15 @@ $$
   \end{cases}
 $$
 
+\subsubsection{Cenova funkce $cost3$}
+
+Cenova funkce $cena3$ se velmi lisi od ostatnich tim, ze nijak nezvyhodnuje validni reseni.  Tato funkce zvyhodnuje lepsi reseni, nikoliv vsak validni. Diky teto funkci snadneji nalezneme lepsi vysledek, ale je vice pravdepodobne, ze vysledek nebude validni.
+
+$$ cost1(Y) = c * MaxW + w $$
+
 
 \subsection{Nastaveni parametru}
-Nastaveni parametru je tezky ukol, exi
+Nastaveni parametru je tezky ukol. Cilem bylo parametry vypocitat z instanci pomoci nejakeho vzorce. Cilem je vytvorit obecny 3SAT resic, ne jen pro nejake pevne zadane parametry.
 
 \subsection{Kriterium ukonceni}
 
@@ -234,7 +245,7 @@ SATLIB knihovna obsahuje take instance 3SAT. Testovaci data maji navic pomer poc
 
 Pro kazdy literal byla nahodne pomoci bashoveho skriptu vygenerovana vaha v rozsahu 20 az 60.
 
-\section{Experimentalni reseni}
+\section{Experimentalni mereni}
 
 \subsection{Postup mereni}
 Mereno bylo na notebooku s Intel(R) Core(TM) i3-2328M Processor (3M Cache, 2.20 GHz), 8GB RAM, gcc 4.9.2 (-Ofast), OS GNU/Linux Lubuntu 14.04.3 64bit.
@@ -251,20 +262,124 @@ U pocatecni teploty jsem nezvolil zadne pevne cislo. Zalezi totiz na velikosti v
 
 $$ ti = PocetLiteralu * MaximalniVaha * 10 $$
 
+\subsubsection{Ochlazovaci faktor}
+
+Ochlazovaci faktor $cf$, je cislo mezi $0$ a $1$. Me spis zajima pocet kroku, tedy kolikrat se snizi teplota a bude se pocitat v ekvilibriu. Proto pocitam ochlazovaci faktor pomoci promenne $steps$, ktera mi urci, kolikrat se snizi teplota o ochlazovaci faktor, nez se dostanu na koncovou teplotu:
+
+$$ \left(\frac{te}{ti}\right)^\frac{1}{steps} $$
+
+\subsubsection{Hodnota ekvilibria}
+
+Hodnota ekvilibria, nebo jinak kolik stavu bude vygenerovano nez se snizi teplota. V nasem pripade, kdy garantujeme to, ze se nasledujici stavy generuji nahodne, ale je zaruceno to, ze se zadny stav neopakuje nema smysl generovat vice stavu, nez je pocet promennych v instanci. Empiristicky byla vybrana hodnota rovna polovine poctu promennych, tedy:
+
+$$ ekvilibrium = pocet_promennych / 2 $$
 
 
 \subsection{Vyber cenove funkce}
 
+\subsubsection{Relativni chyba}
+
+Pro testovani relativni chyby jsem pouzil dataset uf20, ktery ma 20 promennych a 91 klauzoli. Pocet klauzoli jsem ale omezil postupne na 90, 70 a 50 a zkoumal relativni chybu u cenovych funkci.
+
+Kazdy vypocet byl opakovan 5x a byla z neho vybran nejlepsi a prumerny vysledek od kterych byla vypoctena relativni chyba. To bylo opakovano pro 200 instanci a zprumerovano.
+
+\begin{table}[H]
+\centering
+\caption{Relativni chyba. avg prumerna, bst nejlepsi chyba. obe v procentech}
+\label{wat}
+\begin{tabular}{|l|l|l|l|l|l|l|} \hline
+pomer & c1avg  & c1bst & c2avg  & c2bst & c3avg  & c3bst   \\ \hline
+4.5   & 4.23 & 0.48 & 4.23 & 0.48 & 4.23 & 1.07   \\ \hline
+3.5   & 5.85 & 0.84 & 5.85 & 0.84 & 5.85 & 0   \\ \hline
+2.5   & 1.49 & 0.22 & 1.49 & 0.22 & 1.49 & 0   \\ \hline
+\end{tabular}
+\end{table}
+
+Prekvapilo mne, ze prumerne hodnoty jsou stejne pro vsechny 3 ceny. Je ale videt, ze cenova funkce $cena3$ se snazi vice nalezt globalni optimum, zatimco cenove funkce $cena1$ a $cena2$ hledaji spise nejake validni reseni a kvuli tomu mohou uvaznout v lokalnich extremech.
 
 
+\subsubsection{Prubeh vypoctu}
+
+Chovani cenovych ukazu na prikladu o 200 literalech a postupne 200, 400 a 600 klauzolich. Na grafech je znazornen postup vyvoje nejlepsiho reseni. Zelene hodnta zkoumane cenove funkce a cervene skutecna cena reseni podle zadani.
 
 
+\begin{lstlisting}[frame=single]
+DULEZITE:
+V grafech je zelene oznacena cenova funkce pouzita
+v simulovanem zihani.
+Cervene pak skutecna cena reseni podle zadani.
+\end{lstlisting}	
 
-%\begin{figure}[H]
-%	\caption{Vliv velikosti tournamentu}
-% 	\centerline{\includegraphics{tournament.pdf}}
-%\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 200 klauz. cena1}
+ 	\centerline{\includegraphics{"../results/200cost1"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 200 klauz. cena2}
+ 	\centerline{\includegraphics{"../results/200cost2"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 200 klauz. cena3}
+ 	\centerline{\includegraphics{"../results/200cost3"}}
+\end{figure}
 
+\begin{figure}[H]
+	\caption{200 liter. / 400 klauz. cena1}
+ 	\centerline{\includegraphics{"../results/400cost1"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 400 klauz. cena2}
+ 	\centerline{\includegraphics{"../results/400cost2"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 400 klauz. cena3}
+ 	\centerline{\includegraphics{"../results/400cost3"}}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{200 liter. / 600 klauz. cena1}
+ 	\centerline{\includegraphics{"../results/600cost1"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 600 klauz. cena2}
+ 	\centerline{\includegraphics{"../results/600cost2"}}
+\end{figure}
+\begin{figure}[H]
+	\caption{200 liter. / 600 klauz. cena3}
+ 	\centerline{\includegraphics{"../results/600cost3"}}
+\end{figure}
+
+Jsou zde videt predpoklady pri definich cenovych funkci. Cenova funkce $cena3$ se odlisuje tim, ze se snazi jit po lepsim vysledku, misto hledani splnitelne formule.
+
+\subsection{Splnitelnost instanci}
+
+Nasledujici tabulka je vysledkem experimentu, kdyz se pro sadu dat hledalo reseni. Vypocet byl opakovan 10x a z kazde sady bylo vzato 50 instanci. 
+
+\begin{table}[H]
+\centering
+\caption{Vliv cenove funkce na splnitelnost}
+\label{wat}
+\begin{tabular}{|l|l|l|l|} \hline
+literalu/klauzoli & cena1  & cena2  & cena3   \\ \hline
+20/91             & 100 \% & 100 \% & 100 \%  \\ \hline
+50/218            & 100 \% & 100 \% & 65  \%  \\ \hline
+75/218            & 100 \% & 100 \% & 14  \%  \\ \hline
+\end{tabular}
+\end{table}
+
+Jak je z tabulky videt, cenova funkce $cena3$ uz reseni pro vetsi instance nalezne s malou pravdepodobnosti.
+
+\subsection{Rychlost vypoctu}
+
+Protoze se cenove funkce lisi velmi malo a jinak algoritmy funguji stejne, rychlost vypoctu byla temer totozna pro stejne velke instance.
+
+\section{Zaver}
+
+3SAT je velmi slozity problem, pokud mame velke instance. Pro male instance muzeme pouzit brute force reseni. Pro vetsi muzeme pouzit cenovou funkci $cena3$, ktera neznevyhoduje validni reseni a tim nam pomuze najit lepsich vysledku. Nebo je mozne  pouzit jinou cenovou funkci na podobnem principu.
+
+Cenove funkce $cena1$ a $cena2$ agresivneji hledaji validni reseni. Pokud nechceme vypocet provadet obzvlaste dlouho, je to temer nutnost pro nalezeni validniho reseni.
+
+Cely problem bych shrnul na to, ze je potreba brat v potaz velikost instanci, kolik mam casu na vypocet a jestli mi staci horsi, ale validni reseni, nebo se budu snazit o lepsi reseni i za cenu toho, ze dlouho nemusim validni reseni nalezt.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

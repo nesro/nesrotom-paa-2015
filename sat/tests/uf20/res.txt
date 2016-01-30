@@ -1,0 +1,1351 @@
+f= uf20-01000.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 4 c3bst= 20 c3erv= 80.0000000000 c3erb= 0 
+lim= 70 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0100.cnf 
+lim= 90 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 41 c1bst= 44 c1erv= 6.8181818100 c1erb= 0 c2avg= 40 c2bst= 44 c2erv= 9.0909090900 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0101.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0102.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 34 c1bst= 36 c1erv= 5.5555555500 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0103.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 41 c3erv= 2.4390243900 c3erb= 0 
+f= uf20-0104.cnf 
+lim= 90 bf= 36 c1avg= 34 c1bst= 36 c1erv= 5.5555555500 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 35 c2bst= 39 c2erv= 10.2564102500 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 41 c2bst= 43 c2erv= 4.6511627900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0105.cnf 
+lim= 90 bf= 22 c1avg= 22 c1bst= 22 c1erv= 0 c1erb= 0 c2avg= 22 c2bst= 22 c2erv= 0 c2erb= 0 c3avg= 13 c3bst= 22 c3erv= 40.9090909000 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0106.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 16 c3bst= 27 c3erv= 40.7407407400 c3erb= 0 
+lim= 70 bf= 37 c1avg= 30 c1bst= 32 c1erv= 18.9189189100 c1erb= 13.5135135100 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0107.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 28 c3erv= 21.4285714200 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 37 c2bst= 40 c2erv= 7.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0108.cnf 
+lim= 90 bf= 40 c1avg= 35 c1bst= 40 c1erv= 12.5000000000 c1erb= 0 c2avg= 37 c2bst= 40 c2erv= 7.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0109.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 26 c3erv= 23.0769230700 c3erb= 0 
+lim= 70 bf= 38 c1avg= 30 c1bst= 32 c1erv= 21.0526315700 c1erb= 15.7894736800 c2avg= 31 c2bst= 32 c2erv= 18.4210526300 c2erb= 15.7894736800 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-010.cnf 
+lim= 90 bf= 39 c1avg= 36 c1bst= 39 c1erv= 7.6923076900 c1erb= 0 c2avg= 35 c2bst= 39 c2erv= 10.2564102500 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 41 c2erv= 7.3170731700 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0110.cnf 
+lim= 90 bf= 44 c1avg= 39 c1bst= 44 c1erv= 11.3636363600 c1erb= 0 c2avg= 36 c2bst= 44 c2erv= 18.1818181800 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 44 c1bst= 46 c1erv= 4.3478260800 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 45 c1bst= 46 c1erv= 2.1739130400 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0111.cnf 
+lim= 90 bf= 42 c1avg= 36 c1bst= 42 c1erv= 14.2857142800 c1erb= 0 c2avg= 34 c2bst= 42 c2erv= 19.0476190400 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0112.cnf 
+lim= 90 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 33 c2bst= 34 c2erv= 8.3333333300 c2erb= 5.5555555500 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0113.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0114.cnf 
+lim= 90 bf= 33 c1avg= 32 c1bst= 33 c1erv= 3.0303030300 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 50 c1avg= 50 c1bst= 50 c1erv= 0 c1erb= 0 c2avg= 50 c2bst= 50 c2erv= 0 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+f= uf20-0115.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0116.cnf 
+lim= 90 bf= 27 c1avg= 26 c1bst= 27 c1erv= 3.7037037000 c1erb= 0 c2avg= 26 c2bst= 27 c2erv= 3.7037037000 c2erb= 0 c3avg= 26 c3bst= 27 c3erv= 3.7037037000 c3erb= 0 
+lim= 70 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 5.1282051200 c2erb= 2.5641025600 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0117.cnf 
+lim= 90 bf= 22 c1avg= 22 c1bst= 22 c1erv= 0 c1erb= 0 c2avg= 22 c2bst= 22 c2erv= 0 c2erb= 0 c3avg= 17 c3bst= 22 c3erv= 22.7272727200 c3erb= 0 
+lim= 70 bf= 36 c1avg= 31 c1bst= 36 c1erv= 13.8888888800 c1erb= 0 c2avg= 29 c2bst= 36 c2erv= 19.4444444400 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 39 c1bst= 41 c1erv= 4.8780487800 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0118.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0119.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 13 c3bst= 23 c3erv= 43.4782608600 c3erb= 0 
+lim= 70 bf= 43 c1avg= 41 c1bst= 43 c1erv= 4.6511627900 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-011.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0120.cnf 
+lim= 90 bf= 34 c1avg= 30 c1bst= 34 c1erv= 11.7647058800 c1erb= 0 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 35 c1bst= 38 c1erv= 7.8947368400 c1erb= 0 c2avg= 33 c2bst= 38 c2erv= 13.1578947300 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0121.cnf 
+lim= 90 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 35 c1bst= 39 c1erv= 10.2564102500 c1erb= 0 c2avg= 32 c2bst= 39 c2erv= 17.9487179400 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0122.cnf 
+lim= 90 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 50 c1avg= 50 c1bst= 50 c1erv= 0 c1erb= 0 c2avg= 50 c2bst= 50 c2erv= 0 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+f= uf20-0123.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 33 c1bst= 36 c1erv= 13.1578947300 c1erb= 5.2631578900 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0124.cnf 
+lim= 90 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 36 c2bst= 38 c2erv= 7.6923076900 c2erb= 2.5641025600 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0125.cnf 
+lim= 90 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 32 c2bst= 37 c2erv= 13.5135135100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0126.cnf 
+lim= 90 bf= 32 c1avg= 25 c1bst= 32 c1erv= 21.8750000000 c1erb= 0 c2avg= 25 c2bst= 32 c2erv= 21.8750000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 25 c1bst= 27 c1erv= 21.8750000000 c1erb= 15.6250000000 c2avg= 30 c2bst= 32 c2erv= 6.2500000000 c2erb= 0 c3avg= 30 c3bst= 32 c3erv= 6.2500000000 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0127.cnf 
+lim= 90 bf= 37 c1avg= 33 c1bst= 37 c1erv= 10.8108108100 c1erb= 0 c2avg= 32 c2bst= 37 c2erv= 13.5135135100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0128.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0129.cnf 
+lim= 90 bf= 34 c1avg= 30 c1bst= 34 c1erv= 11.7647058800 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-012.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0130.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 23 c3erv= 4.3478260800 c3erb= 0 
+lim= 70 bf= 33 c1avg= 29 c1bst= 33 c1erv= 12.1212121200 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0131.cnf 
+lim= 90 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0132.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 30 c1bst= 34 c1erv= 11.7647058800 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 11.7647058800 c2erb= 5.8823529400 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0133.cnf 
+lim= 90 bf= 34 c1avg= 32 c1bst= 34 c1erv= 5.8823529400 c1erb= 0 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 35 c1bst= 39 c1erv= 20.4545454500 c1erb= 11.3636363600 c2avg= 40 c2bst= 44 c2erv= 9.0909090900 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 41 c2bst= 44 c2erv= 6.8181818100 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0134.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 36 c2erv= 5.5555555500 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0135.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0136.cnf 
+lim= 90 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 42 c1bst= 46 c1erv= 8.6956521700 c1erb= 0 c2avg= 43 c2bst= 46 c2erv= 6.5217391300 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0137.cnf 
+lim= 90 bf= 28 c1avg= 26 c1bst= 28 c1erv= 7.1428571400 c1erb= 0 c2avg= 24 c2bst= 26 c2erv= 14.2857142800 c2erb= 7.1428571400 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 30 c2erv= 3.3333333300 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0138.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0139.cnf 
+lim= 90 bf= 28 c1avg= 23 c1bst= 28 c1erv= 17.8571428500 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 28.5714285700 c2erb= 28.5714285700 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 30 c2bst= 34 c2erv= 14.2857142800 c2erb= 2.8571428500 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-013.cnf 
+lim= 90 bf= 21 c1avg= 21 c1bst= 21 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 0 c2erb= 0 c3avg= 12 c3bst= 21 c3erv= 42.8571428500 c3erb= 0 
+lim= 70 bf= 35 c1avg= 23 c1bst= 35 c1erv= 34.2857142800 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 40.0000000000 c2erb= 40.0000000000 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 41 c1bst= 42 c1erv= 4.6511627900 c1erb= 2.3255813900 c2avg= 41 c2bst= 42 c2erv= 4.6511627900 c2erb= 2.3255813900 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0140.cnf 
+lim= 90 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0141.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 43 c1bst= 46 c1erv= 6.5217391300 c1erb= 0 c2avg= 44 c2bst= 46 c2erv= 4.3478260800 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0142.cnf 
+lim= 90 bf= 33 c1avg= 30 c1bst= 33 c1erv= 9.0909090900 c1erb= 0 c2avg= 30 c2bst= 33 c2erv= 9.0909090900 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0143.cnf 
+lim= 90 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0144.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 23 c3bst= 23 c3erv= 0 c3erb= 0 
+lim= 70 bf= 27 c1avg= 25 c1bst= 26 c1erv= 7.4074074000 c1erb= 3.7037037000 c2avg= 25 c2bst= 27 c2erv= 7.4074074000 c2erb= 0 c3avg= 26 c3bst= 27 c3erv= 3.7037037000 c3erb= 0 
+lim= 50 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+f= uf20-0145.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 37 c1erv= 10.0000000000 c1erb= 7.5000000000 c2avg= 37 c2bst= 37 c2erv= 7.5000000000 c2erb= 7.5000000000 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0146.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 25 c2erv= 8.0000000000 c2erb= 0 c3avg= 24 c3bst= 25 c3erv= 4.0000000000 c3erb= 0 
+lim= 70 bf= 36 c1avg= 31 c1bst= 36 c1erv= 13.8888888800 c1erb= 0 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0147.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 36 c1erv= 5.4054054000 c1erb= 2.7027027000 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 36 c3bst= 37 c3erv= 2.7027027000 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0148.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0149.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 24 c3bst= 25 c3erv= 4.0000000000 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-014.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0150.cnf 
+lim= 90 bf= 29 c1avg= 28 c1bst= 29 c1erv= 3.4482758600 c1erb= 0 c2avg= 28 c2bst= 29 c2erv= 3.4482758600 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0151.cnf 
+lim= 90 bf= 38 c1avg= 30 c1bst= 36 c1erv= 21.0526315700 c1erb= 5.2631578900 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 45 c1bst= 46 c1erv= 2.1739130400 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0152.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 27 c2erv= 3.7037037000 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0153.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 48 c1avg= 42 c1bst= 48 c1erv= 12.5000000000 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 12.5000000000 c2erb= 6.2500000000 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0154.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 32 c2bst= 37 c2erv= 13.5135135100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0155.cnf 
+lim= 90 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 46 c2erv= 2.1739130400 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0156.cnf 
+lim= 90 bf= 30 c1avg= 25 c1bst= 30 c1erv= 16.6666666600 c1erb= 0 c2avg= 23 c2bst= 30 c2erv= 23.3333333300 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 32 c1bst= 33 c1erv= 3.0303030300 c1erb= 0 c2avg= 28 c2bst= 33 c2erv= 15.1515151500 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 38 c1bst= 39 c1erv= 9.5238095200 c1erb= 7.1428571400 c2avg= 38 c2bst= 42 c2erv= 9.5238095200 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0157.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 23 c3bst= 23 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 32 c1bst= 33 c1erv= 3.0303030300 c1erb= 0 c2avg= 30 c2bst= 33 c2erv= 9.0909090900 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 39 c1bst= 40 c1erv= 11.3636363600 c1erb= 9.0909090900 c2avg= 40 c2bst= 44 c2erv= 9.0909090900 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0158.cnf 
+lim= 90 bf= 32 c1avg= 23 c1bst= 32 c1erv= 28.1250000000 c1erb= 0 c2avg= 22 c2bst= 32 c2erv= 31.2500000000 c2erb= 0 c3avg= 28 c3bst= 32 c3erv= 12.5000000000 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 33 c3erv= 3.0303030300 c3erb= 0 
+lim= 50 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0159.cnf 
+lim= 90 bf= 30 c1avg= 27 c1bst= 30 c1erv= 10.0000000000 c1erb= 0 c2avg= 28 c2bst= 30 c2erv= 6.6666666600 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-015.cnf 
+lim= 90 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 26 c2bst= 32 c2erv= 18.7500000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0160.cnf 
+lim= 90 bf= 31 c1avg= 29 c1bst= 31 c1erv= 6.4516129000 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 43 c1bst= 43 c1erv= 4.4444444400 c1erb= 4.4444444400 c2avg= 43 c2bst= 43 c2erv= 4.4444444400 c2erb= 4.4444444400 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 42 c1bst= 43 c1erv= 6.6666666600 c1erb= 4.4444444400 c2avg= 43 c2bst= 45 c2erv= 4.4444444400 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0161.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 32 c1bst= 34 c1erv= 5.8823529400 c1erb= 0 c2avg= 33 c2bst= 34 c2erv= 2.9411764700 c2erb= 0 c3avg= 33 c3bst= 34 c3erv= 2.9411764700 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0162.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 47 c1bst= 48 c1erv= 2.0833333300 c1erb= 0 c2avg= 47 c2bst= 48 c2erv= 2.0833333300 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0163.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 41 c2bst= 43 c2erv= 6.8181818100 c2erb= 2.2727272700 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0164.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 28 c2bst= 31 c2erv= 9.6774193500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 39 c1bst= 41 c1erv= 4.8780487800 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0165.cnf 
+lim= 90 bf= 44 c1avg= 42 c1bst= 44 c1erv= 4.5454545400 c1erb= 0 c2avg= 42 c2bst= 44 c2erv= 4.5454545400 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 39 c2bst= 44 c2erv= 11.3636363600 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0166.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 29 c1bst= 34 c1erv= 14.7058823500 c1erb= 0 c2avg= 29 c2bst= 34 c2erv= 14.7058823500 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0167.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 33 c2bst= 37 c2erv= 10.8108108100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0168.cnf 
+lim= 90 bf= 29 c1avg= 27 c1bst= 29 c1erv= 6.8965517200 c1erb= 0 c2avg= 27 c2bst= 29 c2erv= 6.8965517200 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 29 c1avg= 27 c1bst= 28 c1erv= 6.8965517200 c1erb= 3.4482758600 c2avg= 26 c2bst= 26 c2erv= 10.3448275800 c2erb= 10.3448275800 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0169.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-016.cnf 
+lim= 90 bf= 35 c1avg= 32 c1bst= 32 c1erv= 8.5714285700 c1erb= 8.5714285700 c2avg= 33 c2bst= 35 c2erv= 5.7142857100 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 35 c1bst= 39 c1erv= 10.2564102500 c1erb= 0 c2avg= 34 c2bst= 39 c2erv= 12.8205128200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0170.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0171.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 38 c1bst= 40 c1erv= 11.6279069700 c1erb= 6.9767441800 c2avg= 41 c2bst= 43 c2erv= 4.6511627900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 53 c1avg= 53 c1bst= 53 c1erv= 0 c1erb= 0 c2avg= 53 c2bst= 53 c2erv= 0 c2erb= 0 c3avg= 53 c3bst= 53 c3erv= 0 c3erb= 0 
+f= uf20-0172.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 19 c3bst= 24 c3erv= 20.8333333300 c3erb= 0 
+lim= 70 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 15.6250000000 c2erb= 15.6250000000 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0173.cnf 
+lim= 90 bf= 25 c1avg= 23 c1bst= 25 c1erv= 8.0000000000 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 39 c1bst= 43 c1erv= 9.3023255800 c1erb= 0 c2avg= 37 c2bst= 43 c2erv= 13.9534883700 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0174.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 37 c1bst= 41 c1erv= 9.7560975600 c1erb= 0 c2avg= 32 c2bst= 36 c2erv= 21.9512195100 c2erb= 12.1951219500 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 37 c1bst= 41 c1erv= 9.7560975600 c1erb= 0 c2avg= 38 c2bst= 41 c2erv= 7.3170731700 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0175.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 30 c1bst= 32 c1erv= 11.7647058800 c1erb= 5.8823529400 c2avg= 31 c2bst= 32 c2erv= 8.8235294100 c2erb= 5.8823529400 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0176.cnf 
+lim= 90 bf= 10 c1avg= 10 c1bst= 10 c1erv= 0 c1erb= 0 c2avg= 10 c2bst= 10 c2erv= 0 c2erb= 0 c3avg= 0 c3bst= 0 c3erv= 100.0000000000 c3erb= 100.0000000000 
+lim= 70 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0177.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0178.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 36 c1bst= 43 c1erv= 16.2790697600 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 20.9302325500 c2erb= 18.6046511600 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 40 c1bst= 45 c1erv= 11.1111111100 c1erb= 0 c2avg= 40 c2bst= 45 c2erv= 11.1111111100 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0179.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-017.cnf 
+lim= 90 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 36 c2bst= 39 c2erv= 7.6923076900 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 40 c1bst= 46 c1erv= 13.0434782600 c1erb= 0 c2avg= 44 c2bst= 46 c2erv= 4.3478260800 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0180.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 34 c1bst= 35 c1erv= 5.5555555500 c1erb= 2.7777777700 c2avg= 34 c2bst= 35 c2erv= 5.5555555500 c2erb= 2.7777777700 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0181.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0182.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 39 c1bst= 41 c1erv= 4.8780487800 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0183.cnf 
+lim= 90 bf= 26 c1avg= 25 c1bst= 26 c1erv= 3.8461538400 c1erb= 0 c2avg= 25 c2bst= 26 c2erv= 3.8461538400 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 36 c1bst= 38 c1erv= 12.1951219500 c1erb= 7.3170731700 c2avg= 36 c2bst= 41 c2erv= 12.1951219500 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0184.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0185.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 23 c3bst= 29 c3erv= 20.6896551700 c3erb= 0 
+lim= 70 bf= 37 c1avg= 29 c1bst= 37 c1erv= 21.6216216200 c1erb= 0 c2avg= 28 c2bst= 31 c2erv= 24.3243243200 c2erb= 16.2162162100 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0186.cnf 
+lim= 90 bf= 39 c1avg= 36 c1bst= 39 c1erv= 7.6923076900 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 39 c1bst= 42 c1erv= 7.1428571400 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0187.cnf 
+lim= 90 bf= 23 c1avg= 20 c1bst= 23 c1erv= 13.0434782600 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 13.0434782600 c2erb= 13.0434782600 c3avg= 23 c3bst= 23 c3erv= 0 c3erb= 0 
+lim= 70 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 29 c3erv= 10.3448275800 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0188.cnf 
+lim= 90 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0189.cnf 
+lim= 90 bf= 31 c1avg= 18 c1bst= 31 c1erv= 41.9354838700 c1erb= 0 c2avg= 19 c2bst= 31 c2erv= 38.7096774100 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 6.2500000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-018.cnf 
+lim= 90 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0190.cnf 
+lim= 90 bf= 44 c1avg= 41 c1bst= 44 c1erv= 6.8181818100 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0191.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0192.cnf 
+lim= 90 bf= 18 c1avg= 18 c1bst= 18 c1erv= 0 c1erb= 0 c2avg= 18 c2bst= 18 c2erv= 0 c2erb= 0 c3avg= 3 c3bst= 18 c3erv= 83.3333333300 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0193.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 33 c2bst= 40 c2erv= 17.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0194.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0195.cnf 
+lim= 90 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0196.cnf 
+lim= 90 bf= 34 c1avg= 30 c1bst= 34 c1erv= 11.7647058800 c1erb= 0 c2avg= 30 c2bst= 34 c2erv= 11.7647058800 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0197.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 34 c1bst= 36 c1erv= 5.5555555500 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0198.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 38 c1bst= 39 c1erv= 13.6363636300 c1erb= 11.3636363600 c2avg= 37 c2bst= 38 c2erv= 15.9090909000 c2erb= 13.6363636300 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0199.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 45 c1bst= 46 c1erv= 2.1739130400 c1erb= 0 c2avg= 45 c2bst= 46 c2erv= 2.1739130400 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-019.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 28 c1bst= 35 c1erv= 20.0000000000 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 41 c1bst= 44 c1erv= 6.8181818100 c1erb= 0 c2avg= 42 c2bst= 44 c2erv= 4.5454545400 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-01.cnf 
+lim= 90 bf= 36 c1avg= 23 c1bst= 23 c1erv= 36.1111111100 c1erb= 36.1111111100 c2avg= 23 c2bst= 23 c2erv= 36.1111111100 c2erb= 36.1111111100 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 40 c1bst= 40 c1erv= 4.7619047600 c1erb= 4.7619047600 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0200.cnf 
+lim= 90 bf= 30 c1avg= 27 c1bst= 30 c1erv= 10.0000000000 c1erb= 0 c2avg= 25 c2bst= 30 c2erv= 16.6666666600 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 29 c1bst= 34 c1erv= 14.7058823500 c1erb= 0 c2avg= 24 c2bst= 34 c2erv= 29.4117647000 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+f= uf20-0201.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 24 c3erv= 8.3333333300 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 42 c2erv= 9.5238095200 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0202.cnf 
+lim= 90 bf= 36 c1avg= 31 c1bst= 36 c1erv= 13.8888888800 c1erb= 0 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0203.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0204.cnf 
+lim= 90 bf= 29 c1avg= 26 c1bst= 29 c1erv= 10.3448275800 c1erb= 0 c2avg= 26 c2bst= 29 c2erv= 10.3448275800 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 29 c1avg= 28 c1bst= 29 c1erv= 3.4482758600 c1erb= 0 c2avg= 28 c2bst= 29 c2erv= 3.4482758600 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 42 c1bst= 44 c1erv= 4.5454545400 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0205.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 30 c1avg= 29 c1bst= 30 c1erv= 3.3333333300 c1erb= 0 c2avg= 29 c2bst= 30 c2erv= 3.3333333300 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 36 c2bst= 38 c2erv= 5.2631578900 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0206.cnf 
+lim= 90 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0207.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 32 c1bst= 33 c1erv= 3.0303030300 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 9.0909090900 c2erb= 3.0303030300 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0208.cnf 
+lim= 90 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 32 c1bst= 35 c1erv= 8.5714285700 c1erb= 0 c2avg= 33 c2bst= 35 c2erv= 5.7142857100 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0209.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 41 c1bst= 44 c1erv= 6.8181818100 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 42 c1bst= 44 c1erv= 4.5454545400 c1erb= 0 c2avg= 42 c2bst= 44 c2erv= 4.5454545400 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-020.cnf 
+lim= 90 bf= 22 c1avg= 21 c1bst= 22 c1erv= 4.5454545400 c1erb= 0 c2avg= 21 c2bst= 22 c2erv= 4.5454545400 c2erb= 0 c3avg= 17 c3bst= 22 c3erv= 22.7272727200 c3erb= 0 
+lim= 70 bf= 35 c1avg= 29 c1bst= 35 c1erv= 17.1428571400 c1erb= 0 c2avg= 29 c2bst= 35 c2erv= 17.1428571400 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0210.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 22 c2bst= 24 c2erv= 8.3333333300 c2erb= 0 c3avg= 23 c3bst= 24 c3erv= 4.1666666600 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0211.cnf 
+lim= 90 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0212.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 38 c1bst= 41 c1erv= 7.3170731700 c1erb= 0 c2avg= 35 c2bst= 41 c2erv= 14.6341463400 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 41 c1bst= 46 c1erv= 10.8695652100 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0213.cnf 
+lim= 90 bf= 29 c1avg= 28 c1bst= 29 c1erv= 3.4482758600 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 32 c1bst= 37 c1erv= 13.5135135100 c1erb= 0 c2avg= 32 c2bst= 37 c2erv= 13.5135135100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0214.cnf 
+lim= 90 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 39 c1bst= 39 c1erv= 7.1428571400 c1erb= 7.1428571400 c2avg= 39 c2bst= 42 c2erv= 7.1428571400 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0215.cnf 
+lim= 90 bf= 39 c1avg= 31 c1bst= 39 c1erv= 20.5128205100 c1erb= 0 c2avg= 32 c2bst= 39 c2erv= 17.9487179400 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0216.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 26 c1bst= 38 c1erv= 31.5789473600 c1erb= 0 c2avg= 32 c2bst= 38 c2erv= 15.7894736800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 40 c1bst= 43 c1erv= 6.9767441800 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0217.cnf 
+lim= 90 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 42 c1erv= 2.3255813900 c1erb= 2.3255813900 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0218.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0219.cnf 
+lim= 90 bf= 19 c1avg= 19 c1bst= 19 c1erv= 0 c1erb= 0 c2avg= 19 c2bst= 19 c2erv= 0 c2erb= 0 c3avg= 3 c3bst= 19 c3erv= 84.2105263100 c3erb= 0 
+lim= 70 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 34 c2erv= 2.9411764700 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-021.cnf 
+lim= 90 bf= 31 c1avg= 29 c1bst= 31 c1erv= 6.4516129000 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 31 c1bst= 35 c1erv= 11.4285714200 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 46 c1bst= 47 c1erv= 2.1276595700 c1erb= 0 c2avg= 46 c2bst= 47 c2erv= 2.1276595700 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0220.cnf 
+lim= 90 bf= 30 c1avg= 28 c1bst= 30 c1erv= 6.6666666600 c1erb= 0 c2avg= 26 c2bst= 30 c2erv= 13.3333333300 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 27 c2bst= 32 c2erv= 15.6250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0221.cnf 
+lim= 90 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0222.cnf 
+lim= 90 bf= 37 c1avg= 33 c1bst= 37 c1erv= 10.8108108100 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0223.cnf 
+lim= 90 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 6.2500000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0224.cnf 
+lim= 90 bf= 21 c1avg= 21 c1bst= 21 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 0 c2erb= 0 c3avg= 8 c3bst= 21 c3erv= 61.9047619000 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 36 c2erv= 5.5555555500 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0225.cnf 
+lim= 90 bf= 15 c1avg= 15 c1bst= 15 c1erv= 0 c1erb= 0 c2avg= 15 c2bst= 15 c2erv= 0 c2erb= 0 c3avg= 0 c3bst= 0 c3erv= 100.0000000000 c3erb= 100.0000000000 
+lim= 70 bf= 38 c1avg= 33 c1bst= 38 c1erv= 13.1578947300 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0226.cnf 
+lim= 90 bf= 36 c1avg= 29 c1bst= 33 c1erv= 19.4444444400 c1erb= 8.3333333300 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0227.cnf 
+lim= 90 bf= 41 c1avg= 37 c1bst= 41 c1erv= 9.7560975600 c1erb= 0 c2avg= 36 c2bst= 41 c2erv= 12.1951219500 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 41 c1bst= 43 c1erv= 4.6511627900 c1erb= 0 c2avg= 39 c2bst= 43 c2erv= 9.3023255800 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0228.cnf 
+lim= 90 bf= 37 c1avg= 31 c1bst= 31 c1erv= 16.2162162100 c1erb= 16.2162162100 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 33 c1bst= 37 c1erv= 10.8108108100 c1erb= 0 c2avg= 31 c2bst= 37 c2erv= 16.2162162100 c2erb= 0 c3avg= 35 c3bst= 37 c3erv= 5.4054054000 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0229.cnf 
+lim= 90 bf= 42 c1avg= 39 c1bst= 42 c1erv= 7.1428571400 c1erb= 0 c2avg= 39 c2bst= 42 c2erv= 7.1428571400 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-022.cnf 
+lim= 90 bf= 22 c1avg= 22 c1bst= 22 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 22 c2erv= 4.5454545400 c2erb= 0 c3avg= 17 c3bst= 22 c3erv= 22.7272727200 c3erb= 0 
+lim= 70 bf= 35 c1avg= 31 c1bst= 35 c1erv= 11.4285714200 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0230.cnf 
+lim= 90 bf= 35 c1avg= 29 c1bst= 35 c1erv= 17.1428571400 c1erb= 0 c2avg= 30 c2bst= 35 c2erv= 14.2857142800 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 36 c2bst= 38 c2erv= 5.2631578900 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0231.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0232.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0233.cnf 
+lim= 90 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 37 c1bst= 40 c1erv= 13.9534883700 c1erb= 6.9767441800 c2avg= 40 c2bst= 43 c2erv= 6.9767441800 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0234.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0235.cnf 
+lim= 90 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 50 c1avg= 50 c1bst= 50 c1erv= 0 c1erb= 0 c2avg= 50 c2bst= 50 c2erv= 0 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+lim= 50 bf= 51 c1avg= 51 c1bst= 51 c1erv= 0 c1erb= 0 c2avg= 51 c2bst= 51 c2erv= 0 c2erb= 0 c3avg= 51 c3bst= 51 c3erv= 0 c3erb= 0 
+f= uf20-0236.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 15.0000000000 c2erb= 7.5000000000 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0237.cnf 
+lim= 90 bf= 29 c1avg= 27 c1bst= 29 c1erv= 6.8965517200 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0238.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 24 c3bst= 25 c3erv= 4.0000000000 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0239.cnf 
+lim= 90 bf= 31 c1avg= 24 c1bst= 31 c1erv= 22.5806451600 c1erb= 0 c2avg= 24 c2bst= 31 c2erv= 22.5806451600 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-023.cnf 
+lim= 90 bf= 20 c1avg= 19 c1bst= 20 c1erv= 5.0000000000 c1erb= 0 c2avg= 19 c2bst= 20 c2erv= 5.0000000000 c2erb= 0 c3avg= 19 c3bst= 20 c3erv= 5.0000000000 c3erb= 0 
+lim= 70 bf= 29 c1avg= 22 c1bst= 29 c1erv= 24.1379310300 c1erb= 0 c2avg= 24 c2bst= 29 c2erv= 17.2413793100 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 50 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+f= uf20-0240.cnf 
+lim= 90 bf= 38 c1avg= 30 c1bst= 32 c1erv= 21.0526315700 c1erb= 15.7894736800 c2avg= 32 c2bst= 32 c2erv= 15.7894736800 c2erb= 15.7894736800 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0241.cnf 
+lim= 90 bf= 27 c1avg= 24 c1bst= 27 c1erv= 11.1111111100 c1erb= 0 c2avg= 24 c2bst= 27 c2erv= 11.1111111100 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 32 c2bst= 38 c2erv= 15.7894736800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 45 c1bst= 48 c1erv= 6.2500000000 c1erb= 0 c2avg= 45 c2bst= 48 c2erv= 6.2500000000 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0242.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 39 c2bst= 41 c2erv= 4.8780487800 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0243.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 24 c3erv= 8.3333333300 c3erb= 0 
+lim= 70 bf= 38 c1avg= 31 c1bst= 38 c1erv= 18.4210526300 c1erb= 0 c2avg= 33 c2bst= 38 c2erv= 13.1578947300 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0244.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 39 c1bst= 41 c1erv= 4.8780487800 c1erb= 0 c2avg= 36 c2bst= 41 c2erv= 12.1951219500 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0245.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 16 c3bst= 20 c3erv= 20.0000000000 c3erb= 0 
+lim= 70 bf= 32 c1avg= 28 c1bst= 30 c1erv= 12.5000000000 c1erb= 6.2500000000 c2avg= 30 c2bst= 30 c2erv= 6.2500000000 c2erb= 6.2500000000 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0246.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 31 c1avg= 29 c1bst= 29 c1erv= 6.4516129000 c1erb= 6.4516129000 c2avg= 29 c2bst= 29 c2erv= 6.4516129000 c2erb= 6.4516129000 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0247.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0248.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 35 c1bst= 39 c1erv= 10.2564102500 c1erb= 0 c2avg= 34 c2bst= 39 c2erv= 12.8205128200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0249.cnf 
+lim= 90 bf= 37 c1avg= 33 c1bst= 37 c1erv= 10.8108108100 c1erb= 0 c2avg= 32 c2bst= 37 c2erv= 13.5135135100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 39 c2bst= 42 c2erv= 7.1428571400 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-024.cnf 
+lim= 90 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 38 c1bst= 41 c1erv= 13.6363636300 c1erb= 6.8181818100 c2avg= 39 c2bst= 41 c2erv= 11.3636363600 c2erb= 6.8181818100 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0250.cnf 
+lim= 90 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 38 c1bst= 42 c1erv= 9.5238095200 c1erb= 0 c2avg= 35 c2bst= 42 c2erv= 16.6666666600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0251.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 39 c1bst= 43 c1erv= 9.3023255800 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0252.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 38 c1bst= 41 c1erv= 7.3170731700 c1erb= 0 c2avg= 38 c2bst= 41 c2erv= 7.3170731700 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0253.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 31 c1bst= 35 c1erv= 16.2162162100 c1erb= 5.4054054000 c2avg= 33 c2bst= 37 c2erv= 10.8108108100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0254.cnf 
+lim= 90 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 35 c2bst= 39 c2erv= 20.4545454500 c2erb= 11.3636363600 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 36 c1bst= 40 c1erv= 18.1818181800 c1erb= 9.0909090900 c2avg= 39 c2bst= 40 c2erv= 11.3636363600 c2erb= 9.0909090900 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0255.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 32 c1bst= 38 c1erv= 15.7894736800 c1erb= 0 c2avg= 33 c2bst= 38 c2erv= 13.1578947300 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 35 c1bst= 38 c1erv= 7.8947368400 c1erb= 0 c2avg= 35 c2bst= 38 c2erv= 7.8947368400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0256.cnf 
+lim= 90 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 37 c2bst= 40 c2erv= 7.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0257.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 24 c3bst= 24 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 29 c1bst= 31 c1erv= 17.1428571400 c1erb= 11.4285714200 c2avg= 30 c2bst= 35 c2erv= 14.2857142800 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0258.cnf 
+lim= 90 bf= 27 c1avg= 25 c1bst= 27 c1erv= 7.4074074000 c1erb= 0 c2avg= 24 c2bst= 27 c2erv= 11.1111111100 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 33 c2bst= 35 c2erv= 5.7142857100 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0259.cnf 
+lim= 90 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-025.cnf 
+lim= 90 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0260.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 19 c3bst= 24 c3erv= 20.8333333300 c3erb= 0 
+lim= 70 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 36 c2bst= 39 c2erv= 7.6923076900 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0261.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 34 c1bst= 41 c1erv= 17.0731707300 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 21.9512195100 c2erb= 19.5121951200 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 41 c1bst= 43 c1erv= 4.6511627900 c1erb= 0 c2avg= 41 c2bst= 43 c2erv= 4.6511627900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0262.cnf 
+lim= 90 bf= 25 c1avg= 24 c1bst= 25 c1erv= 4.0000000000 c1erb= 0 c2avg= 24 c2bst= 25 c2erv= 4.0000000000 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0263.cnf 
+lim= 90 bf= 27 c1avg= 25 c1bst= 27 c1erv= 7.4074074000 c1erb= 0 c2avg= 20 c2bst= 27 c2erv= 25.9259259200 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 23 c1bst= 32 c1erv= 28.1250000000 c1erb= 0 c2avg= 27 c2bst= 32 c2erv= 15.6250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0264.cnf 
+lim= 90 bf= 34 c1avg= 29 c1bst= 34 c1erv= 14.7058823500 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 26.4705882300 c2erb= 26.4705882300 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 31 c1bst= 34 c1erv= 8.8235294100 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0265.cnf 
+lim= 90 bf= 46 c1avg= 37 c1bst= 46 c1erv= 19.5652173900 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0266.cnf 
+lim= 90 bf= 30 c1avg= 29 c1bst= 30 c1erv= 3.3333333300 c1erb= 0 c2avg= 29 c2bst= 30 c2erv= 3.3333333300 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0267.cnf 
+lim= 90 bf= 35 c1avg= 32 c1bst= 35 c1erv= 8.5714285700 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0268.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 50 c1avg= 46 c1bst= 50 c1erv= 8.0000000000 c1erb= 0 c2avg= 50 c2bst= 50 c2erv= 0 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+f= uf20-0269.cnf 
+lim= 90 bf= 36 c1avg= 31 c1bst= 36 c1erv= 13.8888888800 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 22.2222222200 c2erb= 22.2222222200 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-026.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 6.2500000000 c2erb= 0 c3avg= 31 c3bst= 32 c3erv= 3.1250000000 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0270.cnf 
+lim= 90 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0271.cnf 
+lim= 90 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0272.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 31 c1bst= 34 c1erv= 11.4285714200 c1erb= 2.8571428500 c2avg= 32 c2bst= 34 c2erv= 8.5714285700 c2erb= 2.8571428500 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0273.cnf 
+lim= 90 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 33 c1bst= 34 c1erv= 5.7142857100 c1erb= 2.8571428500 c2avg= 33 c2bst= 35 c2erv= 5.7142857100 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0274.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 30 c3erv= 3.3333333300 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 51 c1avg= 51 c1bst= 51 c1erv= 0 c1erb= 0 c2avg= 51 c2bst= 51 c2erv= 0 c2erb= 0 c3avg= 51 c3bst= 51 c3erv= 0 c3erb= 0 
+f= uf20-0275.cnf 
+lim= 90 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0276.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 31 c1bst= 34 c1erv= 8.8235294100 c1erb= 0 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+f= uf20-0277.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 43 c2erv= 6.9767441800 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 45 c1bst= 47 c1erv= 4.2553191400 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0278.cnf 
+lim= 90 bf= 14 c1avg= 14 c1bst= 14 c1erv= 0 c1erb= 0 c2avg= 14 c2bst= 14 c2erv= 0 c2erb= 0 c3avg= 2 c3bst= 14 c3erv= 85.7142857100 c3erb= 0 
+lim= 70 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 28 c2bst= 30 c2erv= 12.5000000000 c2erb= 6.2500000000 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0279.cnf 
+lim= 90 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 36 c2bst= 40 c2erv= 10.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-027.cnf 
+lim= 90 bf= 38 c1avg= 35 c1bst= 38 c1erv= 7.8947368400 c1erb= 0 c2avg= 33 c2bst= 38 c2erv= 13.1578947300 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0280.cnf 
+lim= 90 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 28 c2bst= 35 c2erv= 20.0000000000 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 33 c1bst= 37 c1erv= 10.8108108100 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0281.cnf 
+lim= 90 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0282.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 38 c2bst= 44 c2erv= 13.6363636300 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0283.cnf 
+lim= 90 bf= 41 c1avg= 35 c1bst= 41 c1erv= 14.6341463400 c1erb= 0 c2avg= 37 c2bst= 41 c2erv= 9.7560975600 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 41 c2erv= 4.8780487800 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0284.cnf 
+lim= 90 bf= 29 c1avg= 28 c1bst= 29 c1erv= 3.4482758600 c1erb= 0 c2avg= 27 c2bst= 29 c2erv= 6.8965517200 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0285.cnf 
+lim= 90 bf= 35 c1avg= 29 c1bst= 35 c1erv= 17.1428571400 c1erb= 0 c2avg= 29 c2bst= 35 c2erv= 17.1428571400 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0286.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0287.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 30 c1avg= 27 c1bst= 28 c1erv= 10.0000000000 c1erb= 6.6666666600 c2avg= 28 c2bst= 30 c2erv= 6.6666666600 c2erb= 0 c3avg= 29 c3bst= 30 c3erv= 3.3333333300 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0288.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0289.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-028.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 30 c1bst= 32 c1erv= 18.9189189100 c1erb= 13.5135135100 c2avg= 32 c2bst= 32 c2erv= 13.5135135100 c2erb= 13.5135135100 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0290.cnf 
+lim= 90 bf= 21 c1avg= 21 c1bst= 21 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 0 c2erb= 0 c3avg= 21 c3bst= 21 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 29 c2bst= 32 c2erv= 9.3750000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0291.cnf 
+lim= 90 bf= 45 c1avg= 42 c1bst= 45 c1erv= 6.6666666600 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 70 bf= 48 c1avg= 46 c1bst= 48 c1erv= 4.1666666600 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0292.cnf 
+lim= 90 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 6.6666666600 c2erb= 4.4444444400 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0293.cnf 
+lim= 90 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 42 c1bst= 43 c1erv= 2.3255813900 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0294.cnf 
+lim= 90 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 44 c2erv= 6.8181818100 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0295.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0296.cnf 
+lim= 90 bf= 26 c1avg= 22 c1bst= 23 c1erv= 15.3846153800 c1erb= 11.5384615300 c2avg= 22 c2bst= 23 c2erv= 15.3846153800 c2erb= 11.5384615300 c3avg= 25 c3bst= 26 c3erv= 3.8461538400 c3erb= 0 
+lim= 70 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0297.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0298.cnf 
+lim= 90 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 33 c2bst= 35 c2erv= 5.7142857100 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 34 c2bst= 36 c2erv= 8.1081081000 c2erb= 2.7027027000 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0299.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 20 c3erv= 0 c3erb= 0 
+lim= 70 bf= 26 c1avg= 23 c1bst= 26 c1erv= 11.5384615300 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-029.cnf 
+lim= 90 bf= 9 c1avg= 9 c1bst= 9 c1erv= 0 c1erb= 0 c2avg= 9 c2bst= 9 c2erv= 0 c2erb= 0 c3avg= 0 c3bst= 0 c3erv= 100.0000000000 c3erb= 100.0000000000 
+lim= 70 bf= 38 c1avg= 31 c1bst= 32 c1erv= 18.4210526300 c1erb= 15.7894736800 c2avg= 30 c2bst= 32 c2erv= 21.0526315700 c2erb= 15.7894736800 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-02.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0300.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 37 c1bst= 42 c1erv= 11.9047619000 c1erb= 0 c2avg= 39 c2bst= 42 c2erv= 7.1428571400 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0301.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 18 c3bst= 23 c3erv= 21.7391304300 c3erb= 0 
+lim= 70 bf= 37 c1avg= 29 c1bst= 35 c1erv= 21.6216216200 c1erb= 5.4054054000 c2avg= 28 c2bst= 30 c2erv= 24.3243243200 c2erb= 18.9189189100 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 46 c1bst= 47 c1erv= 2.1276595700 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0302.cnf 
+lim= 90 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 28 c2bst= 32 c2erv= 12.5000000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 30 c1bst= 35 c1erv= 14.2857142800 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 22.8571428500 c2erb= 22.8571428500 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0303.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 30 c1avg= 28 c1bst= 30 c1erv= 6.6666666600 c1erb= 0 c2avg= 28 c2bst= 30 c2erv= 6.6666666600 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0304.cnf 
+lim= 90 bf= 33 c1avg= 29 c1bst= 33 c1erv= 12.1212121200 c1erb= 0 c2avg= 30 c2bst= 33 c2erv= 9.0909090900 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0305.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0306.cnf 
+lim= 90 bf= 18 c1avg= 18 c1bst= 18 c1erv= 0 c1erb= 0 c2avg= 18 c2bst= 18 c2erv= 0 c2erb= 0 c3avg= 17 c3bst= 18 c3erv= 5.5555555500 c3erb= 0 
+lim= 70 bf= 32 c1avg= 21 c1bst= 22 c1erv= 34.3750000000 c1erb= 31.2500000000 c2avg= 24 c2bst= 32 c2erv= 25.0000000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0307.cnf 
+lim= 90 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 9.0909090900 c2erb= 6.0606060600 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 34 c1bst= 35 c1erv= 2.8571428500 c1erb= 0 c2avg= 34 c2bst= 35 c2erv= 2.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0308.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0309.cnf 
+lim= 90 bf= 31 c1avg= 29 c1bst= 31 c1erv= 6.4516129000 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-030.cnf 
+lim= 90 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 34 c1bst= 36 c1erv= 8.1081081000 c1erb= 2.7027027000 c2avg= 33 c2bst= 36 c2erv= 10.8108108100 c2erb= 2.7027027000 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 40 c1bst= 47 c1erv= 14.8936170200 c1erb= 0 c2avg= 37 c2bst= 47 c2erv= 21.2765957400 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0310.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 33 c2bst= 35 c2erv= 10.8108108100 c2erb= 5.4054054000 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0311.cnf 
+lim= 90 bf= 38 c1avg= 33 c1bst= 37 c1erv= 13.1578947300 c1erb= 2.6315789400 c2avg= 36 c2bst= 38 c2erv= 5.2631578900 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0312.cnf 
+lim= 90 bf= 22 c1avg= 22 c1bst= 22 c1erv= 0 c1erb= 0 c2avg= 22 c2bst= 22 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 22 c3erv= 0 c3erb= 0 
+lim= 70 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 37 c1bst= 38 c1erv= 2.6315789400 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0313.cnf 
+lim= 90 bf= 24 c1avg= 23 c1bst= 24 c1erv= 4.1666666600 c1erb= 0 c2avg= 22 c2bst= 24 c2erv= 8.3333333300 c2erb= 0 c3avg= 23 c3bst= 24 c3erv= 4.1666666600 c3erb= 0 
+lim= 70 bf= 26 c1avg= 25 c1bst= 26 c1erv= 3.8461538400 c1erb= 0 c2avg= 25 c2bst= 26 c2erv= 3.8461538400 c2erb= 0 c3avg= 24 c3bst= 26 c3erv= 7.6923076900 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0314.cnf 
+lim= 90 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0315.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 30 c3erv= 3.3333333300 c3erb= 0 
+lim= 70 bf= 42 c1avg= 39 c1bst= 42 c1erv= 7.1428571400 c1erb= 0 c2avg= 40 c2bst= 42 c2erv= 4.7619047600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0316.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 30 c1bst= 37 c1erv= 18.9189189100 c1erb= 0 c2avg= 26 c2bst= 27 c2erv= 29.7297297200 c2erb= 27.0270270200 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0317.cnf 
+lim= 90 bf= 27 c1avg= 25 c1bst= 27 c1erv= 7.4074074000 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 42 c2bst= 44 c2erv= 4.5454545400 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0318.cnf 
+lim= 90 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0319.cnf 
+lim= 90 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-031.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 26 c3erv= 23.0769230700 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0320.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0321.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0322.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 34 c1bst= 36 c1erv= 5.5555555500 c1erb= 0 c2avg= 34 c2bst= 36 c2erv= 5.5555555500 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0323.cnf 
+lim= 90 bf= 39 c1avg= 34 c1bst= 39 c1erv= 12.8205128200 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 34 c1bst= 39 c1erv= 12.8205128200 c1erb= 0 c2avg= 30 c2bst= 32 c2erv= 23.0769230700 c2erb= 17.9487179400 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0324.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 32 c1bst= 34 c1erv= 5.8823529400 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 36 c1bst= 39 c1erv= 7.6923076900 c1erb= 0 c2avg= 36 c2bst= 39 c2erv= 7.6923076900 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0325.cnf 
+lim= 90 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 28 c1bst= 39 c1erv= 28.2051282000 c1erb= 0 c2avg= 35 c2bst= 39 c2erv= 10.2564102500 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0326.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 28 c1bst= 33 c1erv= 15.1515151500 c1erb= 0 c2avg= 30 c2bst= 33 c2erv= 9.0909090900 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0327.cnf 
+lim= 90 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 35 c1bst= 36 c1erv= 2.7777777700 c1erb= 0 c2avg= 35 c2bst= 36 c2erv= 2.7777777700 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0328.cnf 
+lim= 90 bf= 16 c1avg= 16 c1bst= 16 c1erv= 0 c1erb= 0 c2avg= 16 c2bst= 16 c2erv= 0 c2erb= 0 c3avg= 3 c3bst= 16 c3erv= 81.2500000000 c3erb= 0 
+lim= 70 bf= 34 c1avg= 31 c1bst= 34 c1erv= 8.8235294100 c1erb= 0 c2avg= 29 c2bst= 34 c2erv= 14.7058823500 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0329.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 28 c3erv= 3.5714285700 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 36 c2bst= 40 c2erv= 10.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-032.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 24 c3bst= 24 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0330.cnf 
+lim= 90 bf= 15 c1avg= 15 c1bst= 15 c1erv= 0 c1erb= 0 c2avg= 15 c2bst= 15 c2erv= 0 c2erb= 0 c3avg= 5 c3bst= 15 c3erv= 66.6666666600 c3erb= 0 
+lim= 70 bf= 31 c1avg= 24 c1bst= 25 c1erv= 22.5806451600 c1erb= 19.3548387000 c2avg= 25 c2bst= 31 c2erv= 19.3548387000 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0331.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 32 c1bst= 33 c1erv= 3.0303030300 c1erb= 0 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 37 c1bst= 39 c1erv= 5.1282051200 c1erb= 0 c2avg= 37 c2bst= 39 c2erv= 5.1282051200 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0332.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 18 c3bst= 23 c3erv= 21.7391304300 c3erb= 0 
+lim= 70 bf= 38 c1avg= 35 c1bst= 38 c1erv= 7.8947368400 c1erb= 0 c2avg= 34 c2bst= 38 c2erv= 10.5263157800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0333.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0334.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 23 c3bst= 23 c3erv= 0 c3erb= 0 
+lim= 70 bf= 24 c1avg= 23 c1bst= 24 c1erv= 4.1666666600 c1erb= 0 c2avg= 23 c2bst= 24 c2erv= 4.1666666600 c2erb= 0 c3avg= 21 c3bst= 24 c3erv= 12.5000000000 c3erb= 0 
+lim= 50 bf= 44 c1avg= 40 c1bst= 44 c1erv= 9.0909090900 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0335.cnf 
+lim= 90 bf= 30 c1avg= 29 c1bst= 30 c1erv= 3.3333333300 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 3.3333333300 c2erb= 3.3333333300 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 c1avg= 32 c1bst= 39 c1erv= 17.9487179400 c1erb= 0 c2avg= 33 c2bst= 34 c2erv= 15.3846153800 c2erb= 12.8205128200 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0336.cnf 
+lim= 90 bf= 19 c1avg= 19 c1bst= 19 c1erv= 0 c1erb= 0 c2avg= 19 c2bst= 19 c2erv= 0 c2erb= 0 c3avg= 7 c3bst= 19 c3erv= 63.1578947300 c3erb= 0 
+lim= 70 bf= 36 c1avg= 26 c1bst= 36 c1erv= 27.7777777700 c1erb= 0 c2avg= 28 c2bst= 36 c2erv= 22.2222222200 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0337.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 53 c1avg= 53 c1bst= 53 c1erv= 0 c1erb= 0 c2avg= 53 c2bst= 53 c2erv= 0 c2erb= 0 c3avg= 53 c3bst= 53 c3erv= 0 c3erb= 0 
+f= uf20-0338.cnf 
+lim= 90 bf= 38 c1avg= 28 c1bst= 38 c1erv= 26.3157894700 c1erb= 0 c2avg= 25 c2bst= 38 c2erv= 34.2105263100 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 31 c1bst= 34 c1erv= 18.4210526300 c1erb= 10.5263157800 c2avg= 32 c2bst= 38 c2erv= 15.7894736800 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0339.cnf 
+lim= 90 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 40 c1bst= 43 c1erv= 6.9767441800 c1erb= 0 c2avg= 41 c2bst= 43 c2erv= 4.6511627900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 48 c2erv= 2.0833333300 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-033.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 19 c3bst= 20 c3erv= 5.0000000000 c3erb= 0 
+lim= 70 bf= 35 c1avg= 31 c1bst= 35 c1erv= 11.4285714200 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-0340.cnf 
+lim= 90 bf= 25 c1avg= 24 c1bst= 25 c1erv= 4.0000000000 c1erb= 0 c2avg= 24 c2bst= 25 c2erv= 4.0000000000 c2erb= 0 c3avg= 24 c3bst= 25 c3erv= 4.0000000000 c3erb= 0 
+lim= 70 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0341.cnf 
+lim= 90 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 70 bf= 48 c1avg= 47 c1bst= 48 c1erv= 2.0833333300 c1erb= 0 c2avg= 44 c2bst= 48 c2erv= 8.3333333300 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0342.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 15 c3bst= 20 c3erv= 25.0000000000 c3erb= 0 
+lim= 70 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0343.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 33 c2erv= 6.0606060600 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 32 c1bst= 35 c1erv= 8.5714285700 c1erb= 0 c2avg= 32 c2bst= 35 c2erv= 8.5714285700 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0344.cnf 
+lim= 90 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0345.cnf 
+lim= 90 bf= 32 c1avg= 25 c1bst= 32 c1erv= 21.8750000000 c1erb= 0 c2avg= 24 c2bst= 32 c2erv= 25.0000000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 28 c1bst= 30 c1erv= 17.6470588200 c1erb= 11.7647058800 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0346.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 23 c3bst= 23 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 41 c1bst= 44 c1erv= 6.8181818100 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0347.cnf 
+lim= 90 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 48 c1avg= 44 c1bst= 48 c1erv= 8.3333333300 c1erb= 0 c2avg= 44 c2bst= 48 c2erv= 8.3333333300 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0348.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0349.cnf 
+lim= 90 bf= 35 c1avg= 28 c1bst= 35 c1erv= 20.0000000000 c1erb= 0 c2avg= 30 c2bst= 35 c2erv= 14.2857142800 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 35 c1avg= 30 c1bst= 35 c1erv= 14.2857142800 c1erb= 0 c2avg= 29 c2bst= 35 c2erv= 17.1428571400 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-034.cnf 
+lim= 90 bf= 35 c1avg= 33 c1bst= 35 c1erv= 5.7142857100 c1erb= 0 c2avg= 31 c2bst= 35 c2erv= 11.4285714200 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0350.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 20 c3erv= 0 c3erb= 0 
+lim= 70 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 11 c3bst= 20 c3erv= 45.0000000000 c3erb= 0 
+lim= 50 bf= 40 c1avg= 38 c1bst= 40 c1erv= 5.0000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0351.cnf 
+lim= 90 bf= 39 c1avg= 39 c1bst= 39 c1erv= 0 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 41 c1bst= 43 c1erv= 4.6511627900 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 2.3255813900 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0352.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 27 c1bst= 32 c1erv= 15.6250000000 c1erb= 0 c2avg= 29 c2bst= 32 c2erv= 9.3750000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 29 c3bst= 32 c3erv= 9.3750000000 c3erb= 0 
+f= uf20-0353.cnf 
+lim= 90 bf= 43 c1avg= 40 c1bst= 40 c1erv= 6.9767441800 c1erb= 6.9767441800 c2avg= 40 c2bst= 43 c2erv= 6.9767441800 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 47 c2erv= 4.2553191400 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0354.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 25 c3bst= 25 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 35 c1bst= 36 c1erv= 16.6666666600 c1erb= 14.2857142800 c2avg= 35 c2bst= 36 c2erv= 16.6666666600 c2erb= 14.2857142800 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0355.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 40 c1bst= 40 c1erv= 4.7619047600 c1erb= 4.7619047600 c2avg= 39 c2bst= 40 c2erv= 7.1428571400 c2erb= 4.7619047600 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0356.cnf 
+lim= 90 bf= 24 c1avg= 24 c1bst= 24 c1erv= 0 c1erb= 0 c2avg= 24 c2bst= 24 c2erv= 0 c2erb= 0 c3avg= 24 c3bst= 24 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 37 c1bst= 37 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0357.cnf 
+lim= 90 bf= 21 c1avg= 21 c1bst= 21 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 21 c3erv= 4.7619047600 c3erb= 0 
+lim= 70 bf= 35 c1avg= 31 c1bst= 35 c1erv= 11.4285714200 c1erb= 0 c2avg= 31 c2bst= 35 c2erv= 11.4285714200 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+f= uf20-0358.cnf 
+lim= 90 bf= 40 c1avg= 34 c1bst= 34 c1erv= 15.0000000000 c1erb= 15.0000000000 c2avg= 34 c2bst= 34 c2erv= 15.0000000000 c2erb= 15.0000000000 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 36 c2bst= 39 c2erv= 10.0000000000 c2erb= 2.5000000000 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+f= uf20-0359.cnf 
+lim= 90 bf= 27 c1avg= 26 c1bst= 27 c1erv= 3.7037037000 c1erb= 0 c2avg= 26 c2bst= 27 c2erv= 3.7037037000 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 32 c1bst= 32 c1erv= 3.0303030300 c1erb= 3.0303030300 c2avg= 32 c2bst= 33 c2erv= 3.0303030300 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-035.cnf 
+lim= 90 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 29 c2bst= 32 c2erv= 9.3750000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 30 c1bst= 36 c1erv= 16.6666666600 c1erb= 0 c2avg= 25 c2bst= 32 c2erv= 30.5555555500 c2erb= 11.1111111100 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 40 c2bst= 41 c2erv= 2.4390243900 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0360.cnf 
+lim= 90 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 41 c2erv= 7.3170731700 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+lim= 70 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0361.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 32 c1bst= 37 c1erv= 13.5135135100 c1erb= 0 c2avg= 35 c2bst= 37 c2erv= 5.4054054000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0362.cnf 
+lim= 90 bf= 30 c1avg= 30 c1bst= 30 c1erv= 0 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 0 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 30 c2bst= 31 c2erv= 3.2258064500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 34 c1avg= 32 c1bst= 34 c1erv= 5.8823529400 c1erb= 0 c2avg= 32 c2bst= 34 c2erv= 5.8823529400 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+f= uf20-0363.cnf 
+lim= 90 bf= 46 c1avg= 39 c1bst= 46 c1erv= 15.2173913000 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 36.9565217300 c2erb= 36.9565217300 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 50 c1avg= 48 c1bst= 50 c1erv= 4.0000000000 c1erb= 0 c2avg= 49 c2bst= 50 c2erv= 2.0000000000 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+f= uf20-0364.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 29 c1bst= 32 c1erv= 9.3750000000 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 9.3750000000 c2erb= 9.3750000000 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0365.cnf 
+lim= 90 bf= 38 c1avg= 34 c1bst= 38 c1erv= 10.5263157800 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 37 c2bst= 38 c2erv= 2.6315789400 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0366.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0367.cnf 
+lim= 90 bf= 30 c1avg= 25 c1bst= 30 c1erv= 16.6666666600 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 23.3333333300 c2erb= 23.3333333300 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 40 c1bst= 41 c1erv= 2.4390243900 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 2.4390243900 c2erb= 2.4390243900 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0368.cnf 
+lim= 90 bf= 33 c1avg= 26 c1bst= 33 c1erv= 21.2121212100 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 37 c1bst= 42 c1erv= 11.9047619000 c1erb= 0 c2avg= 35 c2bst= 42 c2erv= 16.6666666600 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0369.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 20 c2bst= 20 c2erv= 0 c2erb= 0 c3avg= 12 c3bst= 20 c3erv= 40.0000000000 c3erb= 0 
+lim= 70 bf= 45 c1avg= 36 c1bst= 45 c1erv= 20.0000000000 c1erb= 0 c2avg= 30 c2bst= 36 c2erv= 33.3333333300 c2erb= 20.0000000000 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 46 c2erv= 2.1739130400 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-036.cnf 
+lim= 90 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 35 c2erv= 22.8571428500 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 34 c1bst= 38 c1erv= 10.5263157800 c1erb= 0 c2avg= 33 c2bst= 38 c2erv= 13.1578947300 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 46 c2erv= 4.3478260800 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+f= uf20-0370.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 35 c1avg= 35 c1bst= 35 c1erv= 0 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+f= uf20-0371.cnf 
+lim= 90 bf= 36 c1avg= 27 c1bst= 36 c1erv= 25.0000000000 c1erb= 0 c2avg= 24 c2bst= 36 c2erv= 33.3333333300 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 36 c1avg= 31 c1bst= 36 c1erv= 13.8888888800 c1erb= 0 c2avg= 31 c2bst= 36 c2erv= 13.8888888800 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0372.cnf 
+lim= 90 bf= 37 c1avg= 34 c1bst= 37 c1erv= 8.1081081000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0373.cnf 
+lim= 90 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 33 c1bst= 33 c1erv= 17.5000000000 c1erb= 17.5000000000 c2avg= 34 c2bst= 40 c2erv= 15.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0374.cnf 
+lim= 90 bf= 25 c1avg= 25 c1bst= 25 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 25 c2erv= 0 c2erb= 0 c3avg= 20 c3bst= 25 c3erv= 20.0000000000 c3erb= 0 
+lim= 70 bf= 25 c1avg= 22 c1bst= 25 c1erv= 12.0000000000 c1erb= 0 c2avg= 24 c2bst= 25 c2erv= 4.0000000000 c2erb= 0 c3avg= 14 c3bst= 25 c3erv= 44.0000000000 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 47 c2bst= 47 c2erv= 0 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0375.cnf 
+lim= 90 bf= 32 c1avg= 31 c1bst= 32 c1erv= 3.1250000000 c1erb= 0 c2avg= 31 c2bst= 32 c2erv= 3.1250000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 33 c2bst= 37 c2erv= 10.8108108100 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0376.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 31 c1avg= 29 c1bst= 31 c1erv= 6.4516129000 c1erb= 0 c2avg= 29 c2bst= 31 c2erv= 6.4516129000 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0377.cnf 
+lim= 90 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 33 c2bst= 40 c2erv= 17.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 38 c1bst= 43 c1erv= 11.6279069700 c1erb= 0 c2avg= 38 c2bst= 43 c2erv= 11.6279069700 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0378.cnf 
+lim= 90 bf= 30 c1avg= 28 c1bst= 30 c1erv= 6.6666666600 c1erb= 0 c2avg= 28 c2bst= 30 c2erv= 6.6666666600 c2erb= 0 c3avg= 22 c3bst= 30 c3erv= 26.6666666600 c3erb= 0 
+lim= 70 bf= 38 c1avg= 36 c1bst= 38 c1erv= 5.2631578900 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 44 c1bst= 45 c1erv= 2.2222222200 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0379.cnf 
+lim= 90 bf= 23 c1avg= 23 c1bst= 23 c1erv= 0 c1erb= 0 c2avg= 23 c2bst= 23 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 23 c3erv= 4.3478260800 c3erb= 0 
+lim= 70 bf= 36 c1avg= 34 c1bst= 36 c1erv= 5.5555555500 c1erb= 0 c2avg= 34 c2bst= 36 c2erv= 5.5555555500 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-037.cnf 
+lim= 90 bf= 26 c1avg= 26 c1bst= 26 c1erv= 0 c1erb= 0 c2avg= 26 c2bst= 26 c2erv= 0 c2erb= 0 c3avg= 26 c3bst= 26 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 33 c1bst= 33 c1erv= 0 c1erb= 0 c2avg= 33 c2bst= 33 c2erv= 0 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 39 c2bst= 39 c2erv= 0 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0380.cnf 
+lim= 90 bf= 20 c1avg= 20 c1bst= 20 c1erv= 0 c1erb= 0 c2avg= 18 c2bst= 20 c2erv= 10.0000000000 c2erb= 0 c3avg= 13 c3bst= 20 c3erv= 35.0000000000 c3erb= 0 
+lim= 70 bf= 30 c1avg= 26 c1bst= 30 c1erv= 13.3333333300 c1erb= 0 c2avg= 26 c2bst= 30 c2erv= 13.3333333300 c2erb= 0 c3avg= 29 c3bst= 30 c3erv= 3.3333333300 c3erb= 0 
+lim= 50 bf= 41 c1avg= 39 c1bst= 41 c1erv= 4.8780487800 c1erb= 0 c2avg= 37 c2bst= 41 c2erv= 9.7560975600 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0381.cnf 
+lim= 90 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 44 c2bst= 45 c2erv= 2.2222222200 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 47 c1avg= 47 c1bst= 47 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 47 c2erv= 2.1276595700 c2erb= 0 c3avg= 47 c3bst= 47 c3erv= 0 c3erb= 0 
+f= uf20-0382.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 25 c2bst= 27 c2erv= 7.4074074000 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0383.cnf 
+lim= 90 bf= 22 c1avg= 22 c1bst= 22 c1erv= 0 c1erb= 0 c2avg= 22 c2bst= 22 c2erv= 0 c2erb= 0 c3avg= 22 c3bst= 22 c3erv= 0 c3erb= 0 
+lim= 70 bf= 29 c1avg= 28 c1bst= 29 c1erv= 3.4482758600 c1erb= 0 c2avg= 26 c2bst= 29 c2erv= 10.3448275800 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 50 bf= 31 c1avg= 31 c1bst= 31 c1erv= 0 c1erb= 0 c2avg= 31 c2bst= 31 c2erv= 0 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+f= uf20-0384.cnf 
+lim= 90 bf= 30 c1avg= 28 c1bst= 30 c1erv= 6.6666666600 c1erb= 0 c2avg= 28 c2bst= 30 c2erv= 6.6666666600 c2erb= 0 c3avg= 30 c3bst= 30 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 37 c1bst= 40 c1erv= 7.5000000000 c1erb= 0 c2avg= 38 c2bst= 40 c2erv= 5.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 41 c1avg= 41 c1bst= 41 c1erv= 0 c1erb= 0 c2avg= 41 c2bst= 41 c2erv= 0 c2erb= 0 c3avg= 41 c3bst= 41 c3erv= 0 c3erb= 0 
+f= uf20-0385.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 40 c1bst= 40 c1erv= 0 c1erb= 0 c2avg= 40 c2bst= 40 c2erv= 0 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0386.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 32 c1avg= 28 c1bst= 32 c1erv= 12.5000000000 c1erb= 0 c2avg= 28 c2bst= 32 c2erv= 12.5000000000 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 50 bf= 39 c1avg= 38 c1bst= 39 c1erv= 2.5641025600 c1erb= 0 c2avg= 38 c2bst= 39 c2erv= 2.5641025600 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+f= uf20-0387.cnf 
+lim= 90 bf= 38 c1avg= 35 c1bst= 35 c1erv= 7.8947368400 c1erb= 7.8947368400 c2avg= 35 c2bst= 35 c2erv= 7.8947368400 c2erb= 7.8947368400 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 38 c1avg= 35 c1bst= 35 c1erv= 7.8947368400 c1erb= 7.8947368400 c2avg= 35 c2bst= 35 c2erv= 7.8947368400 c2erb= 7.8947368400 c3avg= 37 c3bst= 38 c3erv= 2.6315789400 c3erb= 0 
+lim= 50 bf= 40 c1avg= 39 c1bst= 40 c1erv= 2.5000000000 c1erb= 0 c2avg= 39 c2bst= 40 c2erv= 2.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+f= uf20-0388.cnf 
+lim= 90 bf= 32 c1avg= 32 c1bst= 32 c1erv= 0 c1erb= 0 c2avg= 32 c2bst= 32 c2erv= 0 c2erb= 0 c3avg= 32 c3bst= 32 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 42 c1bst= 45 c1erv= 6.6666666600 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 41 c1bst= 45 c1erv= 8.8888888800 c1erb= 0 c2avg= 42 c2bst= 45 c2erv= 6.6666666600 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0389.cnf 
+lim= 90 bf= 21 c1avg= 21 c1bst= 21 c1erv= 0 c1erb= 0 c2avg= 21 c2bst= 21 c2erv= 0 c2erb= 0 c3avg= 14 c3bst= 21 c3erv= 33.3333333300 c3erb= 0 
+lim= 70 bf= 40 c1avg= 35 c1bst= 40 c1erv= 12.5000000000 c1erb= 0 c2avg= 29 c2bst= 40 c2erv= 27.5000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-038.cnf 
+lim= 90 bf= 31 c1avg= 30 c1bst= 31 c1erv= 3.2258064500 c1erb= 0 c2avg= 26 c2bst= 31 c2erv= 16.1290322500 c2erb= 0 c3avg= 31 c3bst= 31 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0390.cnf 
+lim= 90 bf= 37 c1avg= 19 c1bst= 19 c1erv= 48.6486486400 c1erb= 48.6486486400 c2avg= 26 c2bst= 37 c2erv= 29.7297297200 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 70 bf= 40 c1avg= 36 c1bst= 40 c1erv= 10.0000000000 c1erb= 0 c2avg= 34 c2bst= 40 c2erv= 15.0000000000 c2erb= 0 c3avg= 40 c3bst= 40 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0391.cnf 
+lim= 90 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 38 c2erv= 5.2631578900 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+lim= 70 bf= 42 c1avg= 41 c1bst= 42 c1erv= 2.3809523800 c1erb= 0 c2avg= 38 c2bst= 41 c2erv= 9.5238095200 c2erb= 2.3809523800 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 40 c1bst= 41 c1erv= 4.7619047600 c1erb= 2.3809523800 c2avg= 40 c2bst= 41 c2erv= 4.7619047600 c2erb= 2.3809523800 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0392.cnf 
+lim= 90 bf= 30 c1avg= 29 c1bst= 30 c1erv= 3.3333333300 c1erb= 0 c2avg= 29 c2bst= 30 c2erv= 3.3333333300 c2erb= 0 c3avg= 24 c3bst= 30 c3erv= 20.0000000000 c3erb= 0 
+lim= 70 bf= 39 c1avg= 34 c1bst= 39 c1erv= 12.8205128200 c1erb= 0 c2avg= 36 c2bst= 39 c2erv= 7.6923076900 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0393.cnf 
+lim= 90 bf= 35 c1avg= 31 c1bst= 35 c1erv= 11.4285714200 c1erb= 0 c2avg= 35 c2bst= 35 c2erv= 0 c2erb= 0 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 70 bf= 45 c1avg= 43 c1bst= 45 c1erv= 4.4444444400 c1erb= 0 c2avg= 42 c2bst= 43 c2erv= 6.6666666600 c2erb= 4.4444444400 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0394.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 33 c1avg= 31 c1bst= 33 c1erv= 6.0606060600 c1erb= 0 c2avg= 30 c2bst= 33 c2erv= 9.0909090900 c2erb= 0 c3avg= 33 c3bst= 33 c3erv= 0 c3erb= 0 
+lim= 50 bf= 45 c1avg= 45 c1bst= 45 c1erv= 0 c1erb= 0 c2avg= 45 c2bst= 45 c2erv= 0 c2erb= 0 c3avg= 45 c3bst= 45 c3erv= 0 c3erb= 0 
+f= uf20-0395.cnf 
+lim= 90 bf= 49 c1avg= 49 c1bst= 49 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 49 c2erv= 0 c2erb= 0 c3avg= 49 c3bst= 49 c3erv= 0 c3erb= 0 
+lim= 70 bf= 50 c1avg= 50 c1bst= 50 c1erv= 0 c1erb= 0 c2avg= 49 c2bst= 50 c2erv= 2.0000000000 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+lim= 50 bf= 50 c1avg= 50 c1bst= 50 c1erv= 0 c1erb= 0 c2avg= 50 c2bst= 50 c2erv= 0 c2erb= 0 c3avg= 50 c3bst= 50 c3erv= 0 c3erb= 0 
+f= uf20-0396.cnf 
+lim= 90 bf= 18 c1avg= 15 c1bst= 18 c1erv= 16.6666666600 c1erb= 0 c2avg= 15 c2bst= 15 c2erv= 16.6666666600 c2erb= 16.6666666600 c3avg= 7 c3bst= 18 c3erv= 61.1111111100 c3erb= 0 
+lim= 70 bf= 32 c1avg= 30 c1bst= 32 c1erv= 6.2500000000 c1erb= 0 c2avg= 30 c2bst= 30 c2erv= 6.2500000000 c2erb= 6.2500000000 c3avg= 31 c3bst= 32 c3erv= 3.1250000000 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0397.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 36 c2bst= 37 c2erv= 2.7027027000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 40 c1bst= 42 c1erv= 4.7619047600 c1erb= 0 c2avg= 41 c2bst= 42 c2erv= 2.3809523800 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0398.cnf 
+lim= 90 bf= 27 c1avg= 27 c1bst= 27 c1erv= 0 c1erb= 0 c2avg= 27 c2bst= 27 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 27 c3erv= 0 c3erb= 0 
+lim= 70 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+lim= 50 bf= 43 c1avg= 43 c1bst= 43 c1erv= 0 c1erb= 0 c2avg= 43 c2bst= 43 c2erv= 0 c2erb= 0 c3avg= 43 c3bst= 43 c3erv= 0 c3erb= 0 
+f= uf20-0399.cnf 
+lim= 90 bf= 34 c1avg= 29 c1bst= 34 c1erv= 14.7058823500 c1erb= 0 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 31 c1bst= 34 c1erv= 8.8235294100 c1erb= 0 c2avg= 31 c2bst= 34 c2erv= 8.8235294100 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 37 c1avg= 36 c1bst= 37 c1erv= 2.7027027000 c1erb= 0 c2avg= 37 c2bst= 37 c2erv= 0 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+f= uf20-039.cnf 
+lim= 90 bf= 29 c1avg= 29 c1bst= 29 c1erv= 0 c1erb= 0 c2avg= 29 c2bst= 29 c2erv= 0 c2erb= 0 c3avg= 29 c3bst= 29 c3erv= 0 c3erb= 0 
+lim= 70 bf= 34 c1avg= 33 c1bst= 34 c1erv= 2.9411764700 c1erb= 0 c2avg= 33 c2bst= 34 c2erv= 2.9411764700 c2erb= 0 c3avg= 34 c3bst= 34 c3erv= 0 c3erb= 0 
+lim= 50 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+f= uf20-03.cnf 
+lim= 90 bf= 34 c1avg= 34 c1bst= 34 c1erv= 0 c1erb= 0 c2avg= 34 c2bst= 34 c2erv= 0 c2erb= 0 c3avg= 27 c3bst= 34 c3erv= 20.5882352900 c3erb= 0 
+lim= 70 bf= 39 c1avg= 29 c1bst= 39 c1erv= 25.6410256400 c1erb= 0 c2avg= 29 c2bst= 39 c2erv= 25.6410256400 c2erb= 0 c3avg= 39 c3bst= 39 c3erv= 0 c3erb= 0 
+lim= 50 bf= 44 c1avg= 43 c1bst= 44 c1erv= 2.2727272700 c1erb= 0 c2avg= 43 c2bst= 44 c2erv= 2.2727272700 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+f= uf20-0400.cnf 
+lim= 90 bf= 28 c1avg= 28 c1bst= 28 c1erv= 0 c1erb= 0 c2avg= 28 c2bst= 28 c2erv= 0 c2erb= 0 c3avg= 28 c3bst= 28 c3erv= 0 c3erb= 0 
+lim= 70 bf= 37 c1avg= 35 c1bst= 37 c1erv= 5.4054054000 c1erb= 0 c2avg= 34 c2bst= 37 c2erv= 8.1081081000 c2erb= 0 c3avg= 37 c3bst= 37 c3erv= 0 c3erb= 0 
+lim= 50 bf= 42 c1avg= 42 c1bst= 42 c1erv= 0 c1erb= 0 c2avg= 42 c2bst= 42 c2erv= 0 c2erb= 0 c3avg= 42 c3bst= 42 c3erv= 0 c3erb= 0 
+f= uf20-0401.cnf 
+lim= 90 bf= 44 c1avg= 44 c1bst= 44 c1erv= 0 c1erb= 0 c2avg= 44 c2bst= 44 c2erv= 0 c2erb= 0 c3avg= 44 c3bst= 44 c3erv= 0 c3erb= 0 
+lim= 70 bf= 46 c1avg= 46 c1bst= 46 c1erv= 0 c1erb= 0 c2avg= 46 c2bst= 46 c2erv= 0 c2erb= 0 c3avg= 46 c3bst= 46 c3erv= 0 c3erb= 0 
+lim= 50 bf= 48 c1avg= 48 c1bst= 48 c1erv= 0 c1erb= 0 c2avg= 48 c2bst= 48 c2erv= 0 c2erb= 0 c3avg= 48 c3bst= 48 c3erv= 0 c3erb= 0 
+f= uf20-0402.cnf 
+lim= 90 bf= 10 c1avg= 10 c1bst= 10 c1erv= 0 c1erb= 0 c2avg= 10 c2bst= 10 c2erv= 0 c2erb= 0 c3avg= 2 c3bst= 10 c3erv= 80.0000000000 c3erb= 0 
+lim= 70 bf= 35 c1avg= 29 c1bst= 31 c1erv= 17.1428571400 c1erb= 11.4285714200 c2avg= 29 c2bst= 31 c2erv= 17.1428571400 c2erb= 11.4285714200 c3avg= 35 c3bst= 35 c3erv= 0 c3erb= 0 
+lim= 50 bf= 38 c1avg= 38 c1bst= 38 c1erv= 0 c1erb= 0 c2avg= 38 c2bst= 38 c2erv= 0 c2erb= 0 c3avg= 38 c3bst= 38 c3erv= 0 c3erb= 0 
+f= uf20-0403.cnf 
+lim= 90 bf= 36 c1avg= 36 c1bst= 36 c1erv= 0 c1erb= 0 c2avg= 36 c2bst= 36 c2erv= 0 c2erb= 0 c3avg= 36 c3bst= 36 c3erv= 0 c3erb= 0 
+lim= 70 bf= 39 
